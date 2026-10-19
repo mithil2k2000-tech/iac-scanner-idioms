@@ -1,0 +1,13 @@
+category,both,checkov_only,semgrep_only
+dynamodb_pitr,1,4,0
+ebs_volume_encrypted,0,2,0
+ec2_imdsv2,1,11,0
+ecr_immutable_tags,0,3,0
+ecr_scan_on_push,0,3,0
+eks_public_endpoint,0,2,0
+kinesis_encryption,1,4,0
+kms_rotation,1,9,0
+rds_iam_auth,1,0,0
+rds_publicly_accessible,1,0,0
+sg_ssh_world,0,1,0
+sqs_sse,1,17,0

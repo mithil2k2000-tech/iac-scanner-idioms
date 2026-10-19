@@ -1,0 +1,19 @@
+\begin{table*}[t]
+\centering
+\caption{Recall on insecure cases and false-positive rate on secure cases, by how the security setting is written, over the categories each scanner covers (21 for Checkov, 14 for Semgrep). Omitted settings are counted as insecure or secure according to the provider default.}
+\label{tab:idioms}
+\small
+\begin{tabular}{lrrrr}
+\toprule
+Setting written as & Checkov recall & Checkov FPR & Semgrep recall & Semgrep FPR \\
+\midrule
+Literal value & 1.00 (21/21) & 0.00 (0/21) & 1.00 (14/14) & 0.00 (0/14) \\
+Variable default & 0.95 (20/21) & 0.00 (0/21) & 0.93 (13/14) & 0.00 (0/14) \\
+terraform.tfvars & 0.95 (20/21) & 0.00 (0/21) & 0.79 (11/14) & 0.79 (11/14) \\
+Local value & 0.95 (20/21) & 0.00 (0/21) & 0.93 (13/14) & 0.00 (0/14) \\
+Conditional & 0.95 (20/21) & 0.00 (0/21) & 0.79 (11/14) & 0.79 (11/14) \\
+Local module & 0.95 (20/21) & 0.00 (0/21) & 0.79 (11/14) & 0.79 (11/14) \\
+Omitted (default) & 1.00 (17/17) & 0.75 (3/4) & 1.00 (10/10) & 0.25 (1/4) \\
+\bottomrule
+\end{tabular}
+\end{table*}

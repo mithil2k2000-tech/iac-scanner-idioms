@@ -1,0 +1,625 @@
+category,family,idiom,truth,scanner,covered,flagged
+cloudtrail_log_validation,logging,literal,secure,Checkov,True,False
+cloudtrail_log_validation,logging,literal,insecure,Checkov,True,True
+cloudtrail_log_validation,logging,variable_default,secure,Checkov,True,False
+cloudtrail_log_validation,logging,variable_default,insecure,Checkov,True,True
+cloudtrail_log_validation,logging,tfvars,secure,Checkov,True,False
+cloudtrail_log_validation,logging,tfvars,insecure,Checkov,True,True
+cloudtrail_log_validation,logging,local,secure,Checkov,True,False
+cloudtrail_log_validation,logging,local,insecure,Checkov,True,True
+cloudtrail_log_validation,logging,conditional,secure,Checkov,True,False
+cloudtrail_log_validation,logging,conditional,insecure,Checkov,True,True
+cloudtrail_log_validation,logging,module,secure,Checkov,True,False
+cloudtrail_log_validation,logging,module,insecure,Checkov,True,True
+cloudtrail_log_validation,logging,omitted,insecure,Checkov,True,True
+cloudtrail_log_validation,logging,literal,secure,Semgrep,False,False
+cloudtrail_log_validation,logging,literal,insecure,Semgrep,False,False
+cloudtrail_log_validation,logging,variable_default,secure,Semgrep,False,False
+cloudtrail_log_validation,logging,variable_default,insecure,Semgrep,False,False
+cloudtrail_log_validation,logging,tfvars,secure,Semgrep,False,False
+cloudtrail_log_validation,logging,tfvars,insecure,Semgrep,False,False
+cloudtrail_log_validation,logging,local,secure,Semgrep,False,False
+cloudtrail_log_validation,logging,local,insecure,Semgrep,False,False
+cloudtrail_log_validation,logging,conditional,secure,Semgrep,False,False
+cloudtrail_log_validation,logging,conditional,insecure,Semgrep,False,False
+cloudtrail_log_validation,logging,module,secure,Semgrep,False,False
+cloudtrail_log_validation,logging,module,insecure,Semgrep,False,False
+cloudtrail_log_validation,logging,omitted,insecure,Semgrep,False,False
+dynamodb_pitr,resilience,literal,secure,Checkov,True,False
+dynamodb_pitr,resilience,literal,insecure,Checkov,True,True
+dynamodb_pitr,resilience,variable_default,secure,Checkov,True,False
+dynamodb_pitr,resilience,variable_default,insecure,Checkov,True,True
+dynamodb_pitr,resilience,tfvars,secure,Checkov,True,False
+dynamodb_pitr,resilience,tfvars,insecure,Checkov,True,True
+dynamodb_pitr,resilience,local,secure,Checkov,True,False
+dynamodb_pitr,resilience,local,insecure,Checkov,True,True
+dynamodb_pitr,resilience,conditional,secure,Checkov,True,False
+dynamodb_pitr,resilience,conditional,insecure,Checkov,True,True
+dynamodb_pitr,resilience,module,secure,Checkov,True,False
+dynamodb_pitr,resilience,module,insecure,Checkov,True,True
+dynamodb_pitr,resilience,omitted,insecure,Checkov,True,True
+dynamodb_pitr,resilience,literal,secure,Semgrep,True,False
+dynamodb_pitr,resilience,literal,insecure,Semgrep,True,True
+dynamodb_pitr,resilience,variable_default,secure,Semgrep,True,False
+dynamodb_pitr,resilience,variable_default,insecure,Semgrep,True,True
+dynamodb_pitr,resilience,tfvars,secure,Semgrep,True,True
+dynamodb_pitr,resilience,tfvars,insecure,Semgrep,True,True
+dynamodb_pitr,resilience,local,secure,Semgrep,True,False
+dynamodb_pitr,resilience,local,insecure,Semgrep,True,True
+dynamodb_pitr,resilience,conditional,secure,Semgrep,True,True
+dynamodb_pitr,resilience,conditional,insecure,Semgrep,True,True
+dynamodb_pitr,resilience,module,secure,Semgrep,True,True
+dynamodb_pitr,resilience,module,insecure,Semgrep,True,True
+dynamodb_pitr,resilience,omitted,insecure,Semgrep,True,True
+ebs_volume_encrypted,encryption at rest,literal,secure,Checkov,True,False
+ebs_volume_encrypted,encryption at rest,literal,insecure,Checkov,True,True
+ebs_volume_encrypted,encryption at rest,variable_default,secure,Checkov,True,False
+ebs_volume_encrypted,encryption at rest,variable_default,insecure,Checkov,True,True
+ebs_volume_encrypted,encryption at rest,tfvars,secure,Checkov,True,False
+ebs_volume_encrypted,encryption at rest,tfvars,insecure,Checkov,True,True
+ebs_volume_encrypted,encryption at rest,local,secure,Checkov,True,False
+ebs_volume_encrypted,encryption at rest,local,insecure,Checkov,True,True
+ebs_volume_encrypted,encryption at rest,conditional,secure,Checkov,True,False
+ebs_volume_encrypted,encryption at rest,conditional,insecure,Checkov,True,True
+ebs_volume_encrypted,encryption at rest,module,secure,Checkov,True,False
+ebs_volume_encrypted,encryption at rest,module,insecure,Checkov,True,True
+ebs_volume_encrypted,encryption at rest,omitted,insecure,Checkov,True,True
+ebs_volume_encrypted,encryption at rest,literal,secure,Semgrep,True,False
+ebs_volume_encrypted,encryption at rest,literal,insecure,Semgrep,True,True
+ebs_volume_encrypted,encryption at rest,variable_default,secure,Semgrep,True,False
+ebs_volume_encrypted,encryption at rest,variable_default,insecure,Semgrep,True,True
+ebs_volume_encrypted,encryption at rest,tfvars,secure,Semgrep,True,True
+ebs_volume_encrypted,encryption at rest,tfvars,insecure,Semgrep,True,True
+ebs_volume_encrypted,encryption at rest,local,secure,Semgrep,True,False
+ebs_volume_encrypted,encryption at rest,local,insecure,Semgrep,True,True
+ebs_volume_encrypted,encryption at rest,conditional,secure,Semgrep,True,True
+ebs_volume_encrypted,encryption at rest,conditional,insecure,Semgrep,True,True
+ebs_volume_encrypted,encryption at rest,module,secure,Semgrep,True,True
+ebs_volume_encrypted,encryption at rest,module,insecure,Semgrep,True,True
+ebs_volume_encrypted,encryption at rest,omitted,insecure,Semgrep,True,True
+ec2_imdsv2,instance hardening,literal,secure,Checkov,True,False
+ec2_imdsv2,instance hardening,literal,insecure,Checkov,True,True
+ec2_imdsv2,instance hardening,variable_default,secure,Checkov,True,False
+ec2_imdsv2,instance hardening,variable_default,insecure,Checkov,True,True
+ec2_imdsv2,instance hardening,tfvars,secure,Checkov,True,False
+ec2_imdsv2,instance hardening,tfvars,insecure,Checkov,True,True
+ec2_imdsv2,instance hardening,local,secure,Checkov,True,False
+ec2_imdsv2,instance hardening,local,insecure,Checkov,True,True
+ec2_imdsv2,instance hardening,conditional,secure,Checkov,True,False
+ec2_imdsv2,instance hardening,conditional,insecure,Checkov,True,True
+ec2_imdsv2,instance hardening,module,secure,Checkov,True,False
+ec2_imdsv2,instance hardening,module,insecure,Checkov,True,True
+ec2_imdsv2,instance hardening,omitted,insecure,Checkov,True,True
+ec2_imdsv2,instance hardening,literal,secure,Semgrep,True,False
+ec2_imdsv2,instance hardening,literal,insecure,Semgrep,True,True
+ec2_imdsv2,instance hardening,variable_default,secure,Semgrep,True,False
+ec2_imdsv2,instance hardening,variable_default,insecure,Semgrep,True,True
+ec2_imdsv2,instance hardening,tfvars,secure,Semgrep,True,True
+ec2_imdsv2,instance hardening,tfvars,insecure,Semgrep,True,True
+ec2_imdsv2,instance hardening,local,secure,Semgrep,True,False
+ec2_imdsv2,instance hardening,local,insecure,Semgrep,True,True
+ec2_imdsv2,instance hardening,conditional,secure,Semgrep,True,True
+ec2_imdsv2,instance hardening,conditional,insecure,Semgrep,True,True
+ec2_imdsv2,instance hardening,module,secure,Semgrep,True,True
+ec2_imdsv2,instance hardening,module,insecure,Semgrep,True,True
+ec2_imdsv2,instance hardening,omitted,insecure,Semgrep,True,True
+ec2_root_encrypted,encryption at rest,literal,secure,Checkov,True,False
+ec2_root_encrypted,encryption at rest,literal,insecure,Checkov,True,True
+ec2_root_encrypted,encryption at rest,variable_default,secure,Checkov,True,False
+ec2_root_encrypted,encryption at rest,variable_default,insecure,Checkov,True,True
+ec2_root_encrypted,encryption at rest,tfvars,secure,Checkov,True,False
+ec2_root_encrypted,encryption at rest,tfvars,insecure,Checkov,True,True
+ec2_root_encrypted,encryption at rest,local,secure,Checkov,True,False
+ec2_root_encrypted,encryption at rest,local,insecure,Checkov,True,True
+ec2_root_encrypted,encryption at rest,conditional,secure,Checkov,True,False
+ec2_root_encrypted,encryption at rest,conditional,insecure,Checkov,True,True
+ec2_root_encrypted,encryption at rest,module,secure,Checkov,True,False
+ec2_root_encrypted,encryption at rest,module,insecure,Checkov,True,True
+ec2_root_encrypted,encryption at rest,omitted,insecure,Checkov,True,True
+ec2_root_encrypted,encryption at rest,literal,secure,Semgrep,False,False
+ec2_root_encrypted,encryption at rest,literal,insecure,Semgrep,False,False
+ec2_root_encrypted,encryption at rest,variable_default,secure,Semgrep,False,False
+ec2_root_encrypted,encryption at rest,variable_default,insecure,Semgrep,False,False
+ec2_root_encrypted,encryption at rest,tfvars,secure,Semgrep,False,False
+ec2_root_encrypted,encryption at rest,tfvars,insecure,Semgrep,False,False
+ec2_root_encrypted,encryption at rest,local,secure,Semgrep,False,False
+ec2_root_encrypted,encryption at rest,local,insecure,Semgrep,False,False
+ec2_root_encrypted,encryption at rest,conditional,secure,Semgrep,False,False
+ec2_root_encrypted,encryption at rest,conditional,insecure,Semgrep,False,False
+ec2_root_encrypted,encryption at rest,module,secure,Semgrep,False,False
+ec2_root_encrypted,encryption at rest,module,insecure,Semgrep,False,False
+ec2_root_encrypted,encryption at rest,omitted,insecure,Semgrep,False,False
+ecr_immutable_tags,supply chain,literal,secure,Checkov,True,False
+ecr_immutable_tags,supply chain,literal,insecure,Checkov,True,True
+ecr_immutable_tags,supply chain,variable_default,secure,Checkov,True,False
+ecr_immutable_tags,supply chain,variable_default,insecure,Checkov,True,True
+ecr_immutable_tags,supply chain,tfvars,secure,Checkov,True,False
+ecr_immutable_tags,supply chain,tfvars,insecure,Checkov,True,True
+ecr_immutable_tags,supply chain,local,secure,Checkov,True,False
+ecr_immutable_tags,supply chain,local,insecure,Checkov,True,True
+ecr_immutable_tags,supply chain,conditional,secure,Checkov,True,False
+ecr_immutable_tags,supply chain,conditional,insecure,Checkov,True,True
+ecr_immutable_tags,supply chain,module,secure,Checkov,True,False
+ecr_immutable_tags,supply chain,module,insecure,Checkov,True,True
+ecr_immutable_tags,supply chain,omitted,insecure,Checkov,True,True
+ecr_immutable_tags,supply chain,literal,secure,Semgrep,True,False
+ecr_immutable_tags,supply chain,literal,insecure,Semgrep,True,True
+ecr_immutable_tags,supply chain,variable_default,secure,Semgrep,True,False
+ecr_immutable_tags,supply chain,variable_default,insecure,Semgrep,True,True
+ecr_immutable_tags,supply chain,tfvars,secure,Semgrep,True,True
+ecr_immutable_tags,supply chain,tfvars,insecure,Semgrep,True,True
+ecr_immutable_tags,supply chain,local,secure,Semgrep,True,False
+ecr_immutable_tags,supply chain,local,insecure,Semgrep,True,True
+ecr_immutable_tags,supply chain,conditional,secure,Semgrep,True,True
+ecr_immutable_tags,supply chain,conditional,insecure,Semgrep,True,True
+ecr_immutable_tags,supply chain,module,secure,Semgrep,True,True
+ecr_immutable_tags,supply chain,module,insecure,Semgrep,True,True
+ecr_immutable_tags,supply chain,omitted,insecure,Semgrep,True,True
+ecr_scan_on_push,supply chain,literal,secure,Checkov,True,False
+ecr_scan_on_push,supply chain,literal,insecure,Checkov,True,True
+ecr_scan_on_push,supply chain,variable_default,secure,Checkov,True,False
+ecr_scan_on_push,supply chain,variable_default,insecure,Checkov,True,True
+ecr_scan_on_push,supply chain,tfvars,secure,Checkov,True,False
+ecr_scan_on_push,supply chain,tfvars,insecure,Checkov,True,True
+ecr_scan_on_push,supply chain,local,secure,Checkov,True,False
+ecr_scan_on_push,supply chain,local,insecure,Checkov,True,True
+ecr_scan_on_push,supply chain,conditional,secure,Checkov,True,False
+ecr_scan_on_push,supply chain,conditional,insecure,Checkov,True,True
+ecr_scan_on_push,supply chain,module,secure,Checkov,True,False
+ecr_scan_on_push,supply chain,module,insecure,Checkov,True,True
+ecr_scan_on_push,supply chain,omitted,insecure,Checkov,True,True
+ecr_scan_on_push,supply chain,literal,secure,Semgrep,True,False
+ecr_scan_on_push,supply chain,literal,insecure,Semgrep,True,True
+ecr_scan_on_push,supply chain,variable_default,secure,Semgrep,True,False
+ecr_scan_on_push,supply chain,variable_default,insecure,Semgrep,True,True
+ecr_scan_on_push,supply chain,tfvars,secure,Semgrep,True,True
+ecr_scan_on_push,supply chain,tfvars,insecure,Semgrep,True,True
+ecr_scan_on_push,supply chain,local,secure,Semgrep,True,False
+ecr_scan_on_push,supply chain,local,insecure,Semgrep,True,True
+ecr_scan_on_push,supply chain,conditional,secure,Semgrep,True,True
+ecr_scan_on_push,supply chain,conditional,insecure,Semgrep,True,True
+ecr_scan_on_push,supply chain,module,secure,Semgrep,True,True
+ecr_scan_on_push,supply chain,module,insecure,Semgrep,True,True
+ecr_scan_on_push,supply chain,omitted,insecure,Semgrep,True,True
+efs_encrypted,encryption at rest,literal,secure,Checkov,True,False
+efs_encrypted,encryption at rest,literal,insecure,Checkov,True,True
+efs_encrypted,encryption at rest,variable_default,secure,Checkov,True,False
+efs_encrypted,encryption at rest,variable_default,insecure,Checkov,True,True
+efs_encrypted,encryption at rest,tfvars,secure,Checkov,True,False
+efs_encrypted,encryption at rest,tfvars,insecure,Checkov,True,True
+efs_encrypted,encryption at rest,local,secure,Checkov,True,False
+efs_encrypted,encryption at rest,local,insecure,Checkov,True,True
+efs_encrypted,encryption at rest,conditional,secure,Checkov,True,False
+efs_encrypted,encryption at rest,conditional,insecure,Checkov,True,True
+efs_encrypted,encryption at rest,module,secure,Checkov,True,False
+efs_encrypted,encryption at rest,module,insecure,Checkov,True,True
+efs_encrypted,encryption at rest,omitted,insecure,Checkov,True,True
+efs_encrypted,encryption at rest,literal,secure,Semgrep,False,False
+efs_encrypted,encryption at rest,literal,insecure,Semgrep,False,False
+efs_encrypted,encryption at rest,variable_default,secure,Semgrep,False,False
+efs_encrypted,encryption at rest,variable_default,insecure,Semgrep,False,False
+efs_encrypted,encryption at rest,tfvars,secure,Semgrep,False,False
+efs_encrypted,encryption at rest,tfvars,insecure,Semgrep,False,False
+efs_encrypted,encryption at rest,local,secure,Semgrep,False,False
+efs_encrypted,encryption at rest,local,insecure,Semgrep,False,False
+efs_encrypted,encryption at rest,conditional,secure,Semgrep,False,False
+efs_encrypted,encryption at rest,conditional,insecure,Semgrep,False,False
+efs_encrypted,encryption at rest,module,secure,Semgrep,False,False
+efs_encrypted,encryption at rest,module,insecure,Semgrep,False,False
+efs_encrypted,encryption at rest,omitted,insecure,Semgrep,False,False
+eks_public_endpoint,network exposure,literal,secure,Checkov,True,False
+eks_public_endpoint,network exposure,literal,insecure,Checkov,True,True
+eks_public_endpoint,network exposure,variable_default,secure,Checkov,True,False
+eks_public_endpoint,network exposure,variable_default,insecure,Checkov,True,True
+eks_public_endpoint,network exposure,tfvars,secure,Checkov,True,False
+eks_public_endpoint,network exposure,tfvars,insecure,Checkov,True,True
+eks_public_endpoint,network exposure,local,secure,Checkov,True,False
+eks_public_endpoint,network exposure,local,insecure,Checkov,True,True
+eks_public_endpoint,network exposure,conditional,secure,Checkov,True,False
+eks_public_endpoint,network exposure,conditional,insecure,Checkov,True,True
+eks_public_endpoint,network exposure,module,secure,Checkov,True,False
+eks_public_endpoint,network exposure,module,insecure,Checkov,True,True
+eks_public_endpoint,network exposure,omitted,insecure,Checkov,True,True
+eks_public_endpoint,network exposure,literal,secure,Semgrep,True,False
+eks_public_endpoint,network exposure,literal,insecure,Semgrep,True,True
+eks_public_endpoint,network exposure,variable_default,secure,Semgrep,True,False
+eks_public_endpoint,network exposure,variable_default,insecure,Semgrep,True,True
+eks_public_endpoint,network exposure,tfvars,secure,Semgrep,True,True
+eks_public_endpoint,network exposure,tfvars,insecure,Semgrep,True,True
+eks_public_endpoint,network exposure,local,secure,Semgrep,True,False
+eks_public_endpoint,network exposure,local,insecure,Semgrep,True,True
+eks_public_endpoint,network exposure,conditional,secure,Semgrep,True,True
+eks_public_endpoint,network exposure,conditional,insecure,Semgrep,True,True
+eks_public_endpoint,network exposure,module,secure,Semgrep,True,True
+eks_public_endpoint,network exposure,module,insecure,Semgrep,True,True
+eks_public_endpoint,network exposure,omitted,insecure,Semgrep,True,True
+elasticache_transit,encryption in transit,literal,secure,Checkov,True,False
+elasticache_transit,encryption in transit,literal,insecure,Checkov,True,True
+elasticache_transit,encryption in transit,variable_default,secure,Checkov,True,False
+elasticache_transit,encryption in transit,variable_default,insecure,Checkov,True,True
+elasticache_transit,encryption in transit,tfvars,secure,Checkov,True,False
+elasticache_transit,encryption in transit,tfvars,insecure,Checkov,True,True
+elasticache_transit,encryption in transit,local,secure,Checkov,True,False
+elasticache_transit,encryption in transit,local,insecure,Checkov,True,True
+elasticache_transit,encryption in transit,conditional,secure,Checkov,True,False
+elasticache_transit,encryption in transit,conditional,insecure,Checkov,True,True
+elasticache_transit,encryption in transit,module,secure,Checkov,True,False
+elasticache_transit,encryption in transit,module,insecure,Checkov,True,True
+elasticache_transit,encryption in transit,omitted,insecure,Checkov,True,True
+elasticache_transit,encryption in transit,literal,secure,Semgrep,False,False
+elasticache_transit,encryption in transit,literal,insecure,Semgrep,False,False
+elasticache_transit,encryption in transit,variable_default,secure,Semgrep,False,False
+elasticache_transit,encryption in transit,variable_default,insecure,Semgrep,False,False
+elasticache_transit,encryption in transit,tfvars,secure,Semgrep,False,False
+elasticache_transit,encryption in transit,tfvars,insecure,Semgrep,False,False
+elasticache_transit,encryption in transit,local,secure,Semgrep,False,False
+elasticache_transit,encryption in transit,local,insecure,Semgrep,False,False
+elasticache_transit,encryption in transit,conditional,secure,Semgrep,False,False
+elasticache_transit,encryption in transit,conditional,insecure,Semgrep,False,False
+elasticache_transit,encryption in transit,module,secure,Semgrep,False,False
+elasticache_transit,encryption in transit,module,insecure,Semgrep,False,False
+elasticache_transit,encryption in transit,omitted,insecure,Semgrep,False,False
+kinesis_encryption,encryption at rest,literal,secure,Checkov,True,False
+kinesis_encryption,encryption at rest,literal,insecure,Checkov,True,True
+kinesis_encryption,encryption at rest,variable_default,secure,Checkov,True,False
+kinesis_encryption,encryption at rest,variable_default,insecure,Checkov,True,True
+kinesis_encryption,encryption at rest,tfvars,secure,Checkov,True,False
+kinesis_encryption,encryption at rest,tfvars,insecure,Checkov,True,True
+kinesis_encryption,encryption at rest,local,secure,Checkov,True,False
+kinesis_encryption,encryption at rest,local,insecure,Checkov,True,True
+kinesis_encryption,encryption at rest,conditional,secure,Checkov,True,False
+kinesis_encryption,encryption at rest,conditional,insecure,Checkov,True,True
+kinesis_encryption,encryption at rest,module,secure,Checkov,True,False
+kinesis_encryption,encryption at rest,module,insecure,Checkov,True,True
+kinesis_encryption,encryption at rest,omitted,insecure,Checkov,True,True
+kinesis_encryption,encryption at rest,literal,secure,Semgrep,True,False
+kinesis_encryption,encryption at rest,literal,insecure,Semgrep,True,True
+kinesis_encryption,encryption at rest,variable_default,secure,Semgrep,True,False
+kinesis_encryption,encryption at rest,variable_default,insecure,Semgrep,True,True
+kinesis_encryption,encryption at rest,tfvars,secure,Semgrep,True,True
+kinesis_encryption,encryption at rest,tfvars,insecure,Semgrep,True,True
+kinesis_encryption,encryption at rest,local,secure,Semgrep,True,False
+kinesis_encryption,encryption at rest,local,insecure,Semgrep,True,True
+kinesis_encryption,encryption at rest,conditional,secure,Semgrep,True,True
+kinesis_encryption,encryption at rest,conditional,insecure,Semgrep,True,True
+kinesis_encryption,encryption at rest,module,secure,Semgrep,True,True
+kinesis_encryption,encryption at rest,module,insecure,Semgrep,True,True
+kinesis_encryption,encryption at rest,omitted,insecure,Semgrep,True,True
+kms_rotation,key management,literal,secure,Checkov,True,False
+kms_rotation,key management,literal,insecure,Checkov,True,True
+kms_rotation,key management,variable_default,secure,Checkov,True,False
+kms_rotation,key management,variable_default,insecure,Checkov,True,True
+kms_rotation,key management,tfvars,secure,Checkov,True,False
+kms_rotation,key management,tfvars,insecure,Checkov,True,True
+kms_rotation,key management,local,secure,Checkov,True,False
+kms_rotation,key management,local,insecure,Checkov,True,True
+kms_rotation,key management,conditional,secure,Checkov,True,False
+kms_rotation,key management,conditional,insecure,Checkov,True,True
+kms_rotation,key management,module,secure,Checkov,True,False
+kms_rotation,key management,module,insecure,Checkov,True,True
+kms_rotation,key management,omitted,insecure,Checkov,True,True
+kms_rotation,key management,literal,secure,Semgrep,True,False
+kms_rotation,key management,literal,insecure,Semgrep,True,True
+kms_rotation,key management,variable_default,secure,Semgrep,True,False
+kms_rotation,key management,variable_default,insecure,Semgrep,True,True
+kms_rotation,key management,tfvars,secure,Semgrep,True,True
+kms_rotation,key management,tfvars,insecure,Semgrep,True,True
+kms_rotation,key management,local,secure,Semgrep,True,False
+kms_rotation,key management,local,insecure,Semgrep,True,True
+kms_rotation,key management,conditional,secure,Semgrep,True,True
+kms_rotation,key management,conditional,insecure,Semgrep,True,True
+kms_rotation,key management,module,secure,Semgrep,True,True
+kms_rotation,key management,module,insecure,Semgrep,True,True
+kms_rotation,key management,omitted,insecure,Semgrep,True,True
+lambda_tracing,logging,literal,secure,Checkov,False,False
+lambda_tracing,logging,literal,insecure,Checkov,False,False
+lambda_tracing,logging,variable_default,secure,Checkov,False,False
+lambda_tracing,logging,variable_default,insecure,Checkov,False,False
+lambda_tracing,logging,tfvars,secure,Checkov,False,False
+lambda_tracing,logging,tfvars,insecure,Checkov,False,False
+lambda_tracing,logging,local,secure,Checkov,False,False
+lambda_tracing,logging,local,insecure,Checkov,False,False
+lambda_tracing,logging,conditional,secure,Checkov,False,False
+lambda_tracing,logging,conditional,insecure,Checkov,False,False
+lambda_tracing,logging,module,secure,Checkov,False,False
+lambda_tracing,logging,module,insecure,Checkov,False,False
+lambda_tracing,logging,omitted,insecure,Checkov,False,False
+lambda_tracing,logging,literal,secure,Semgrep,True,False
+lambda_tracing,logging,literal,insecure,Semgrep,True,True
+lambda_tracing,logging,variable_default,secure,Semgrep,True,False
+lambda_tracing,logging,variable_default,insecure,Semgrep,True,True
+lambda_tracing,logging,tfvars,secure,Semgrep,True,True
+lambda_tracing,logging,tfvars,insecure,Semgrep,True,True
+lambda_tracing,logging,local,secure,Semgrep,True,False
+lambda_tracing,logging,local,insecure,Semgrep,True,True
+lambda_tracing,logging,conditional,secure,Semgrep,True,True
+lambda_tracing,logging,conditional,insecure,Semgrep,True,True
+lambda_tracing,logging,module,secure,Semgrep,True,True
+lambda_tracing,logging,module,insecure,Semgrep,True,True
+lambda_tracing,logging,omitted,insecure,Semgrep,True,True
+opensearch_node_to_node,encryption in transit,literal,secure,Checkov,False,False
+opensearch_node_to_node,encryption in transit,literal,insecure,Checkov,False,False
+opensearch_node_to_node,encryption in transit,variable_default,secure,Checkov,False,False
+opensearch_node_to_node,encryption in transit,variable_default,insecure,Checkov,False,False
+opensearch_node_to_node,encryption in transit,tfvars,secure,Checkov,False,False
+opensearch_node_to_node,encryption in transit,tfvars,insecure,Checkov,False,False
+opensearch_node_to_node,encryption in transit,local,secure,Checkov,False,False
+opensearch_node_to_node,encryption in transit,local,insecure,Checkov,False,False
+opensearch_node_to_node,encryption in transit,conditional,secure,Checkov,False,False
+opensearch_node_to_node,encryption in transit,conditional,insecure,Checkov,False,False
+opensearch_node_to_node,encryption in transit,module,secure,Checkov,False,False
+opensearch_node_to_node,encryption in transit,module,insecure,Checkov,False,False
+opensearch_node_to_node,encryption in transit,omitted,insecure,Checkov,False,False
+opensearch_node_to_node,encryption in transit,literal,secure,Semgrep,False,False
+opensearch_node_to_node,encryption in transit,literal,insecure,Semgrep,False,False
+opensearch_node_to_node,encryption in transit,variable_default,secure,Semgrep,False,False
+opensearch_node_to_node,encryption in transit,variable_default,insecure,Semgrep,False,False
+opensearch_node_to_node,encryption in transit,tfvars,secure,Semgrep,False,False
+opensearch_node_to_node,encryption in transit,tfvars,insecure,Semgrep,False,False
+opensearch_node_to_node,encryption in transit,local,secure,Semgrep,False,False
+opensearch_node_to_node,encryption in transit,local,insecure,Semgrep,False,False
+opensearch_node_to_node,encryption in transit,conditional,secure,Semgrep,False,False
+opensearch_node_to_node,encryption in transit,conditional,insecure,Semgrep,False,False
+opensearch_node_to_node,encryption in transit,module,secure,Semgrep,False,False
+opensearch_node_to_node,encryption in transit,module,insecure,Semgrep,False,False
+opensearch_node_to_node,encryption in transit,omitted,insecure,Semgrep,False,False
+rds_deletion_protection,resilience,literal,secure,Checkov,True,False
+rds_deletion_protection,resilience,literal,insecure,Checkov,True,True
+rds_deletion_protection,resilience,variable_default,secure,Checkov,True,False
+rds_deletion_protection,resilience,variable_default,insecure,Checkov,True,True
+rds_deletion_protection,resilience,tfvars,secure,Checkov,True,False
+rds_deletion_protection,resilience,tfvars,insecure,Checkov,True,True
+rds_deletion_protection,resilience,local,secure,Checkov,True,False
+rds_deletion_protection,resilience,local,insecure,Checkov,True,True
+rds_deletion_protection,resilience,conditional,secure,Checkov,True,False
+rds_deletion_protection,resilience,conditional,insecure,Checkov,True,True
+rds_deletion_protection,resilience,module,secure,Checkov,True,False
+rds_deletion_protection,resilience,module,insecure,Checkov,True,True
+rds_deletion_protection,resilience,omitted,insecure,Checkov,True,True
+rds_deletion_protection,resilience,literal,secure,Semgrep,False,False
+rds_deletion_protection,resilience,literal,insecure,Semgrep,False,False
+rds_deletion_protection,resilience,variable_default,secure,Semgrep,False,False
+rds_deletion_protection,resilience,variable_default,insecure,Semgrep,False,False
+rds_deletion_protection,resilience,tfvars,secure,Semgrep,False,False
+rds_deletion_protection,resilience,tfvars,insecure,Semgrep,False,False
+rds_deletion_protection,resilience,local,secure,Semgrep,False,False
+rds_deletion_protection,resilience,local,insecure,Semgrep,False,False
+rds_deletion_protection,resilience,conditional,secure,Semgrep,False,False
+rds_deletion_protection,resilience,conditional,insecure,Semgrep,False,False
+rds_deletion_protection,resilience,module,secure,Semgrep,False,False
+rds_deletion_protection,resilience,module,insecure,Semgrep,False,False
+rds_deletion_protection,resilience,omitted,insecure,Semgrep,False,False
+rds_iam_auth,identity,literal,secure,Checkov,True,False
+rds_iam_auth,identity,literal,insecure,Checkov,True,True
+rds_iam_auth,identity,variable_default,secure,Checkov,True,False
+rds_iam_auth,identity,variable_default,insecure,Checkov,True,True
+rds_iam_auth,identity,tfvars,secure,Checkov,True,False
+rds_iam_auth,identity,tfvars,insecure,Checkov,True,True
+rds_iam_auth,identity,local,secure,Checkov,True,False
+rds_iam_auth,identity,local,insecure,Checkov,True,True
+rds_iam_auth,identity,conditional,secure,Checkov,True,False
+rds_iam_auth,identity,conditional,insecure,Checkov,True,True
+rds_iam_auth,identity,module,secure,Checkov,True,False
+rds_iam_auth,identity,module,insecure,Checkov,True,True
+rds_iam_auth,identity,omitted,insecure,Checkov,True,True
+rds_iam_auth,identity,literal,secure,Semgrep,True,False
+rds_iam_auth,identity,literal,insecure,Semgrep,True,True
+rds_iam_auth,identity,variable_default,secure,Semgrep,True,False
+rds_iam_auth,identity,variable_default,insecure,Semgrep,True,True
+rds_iam_auth,identity,tfvars,secure,Semgrep,True,True
+rds_iam_auth,identity,tfvars,insecure,Semgrep,True,True
+rds_iam_auth,identity,local,secure,Semgrep,True,False
+rds_iam_auth,identity,local,insecure,Semgrep,True,True
+rds_iam_auth,identity,conditional,secure,Semgrep,True,True
+rds_iam_auth,identity,conditional,insecure,Semgrep,True,True
+rds_iam_auth,identity,module,secure,Semgrep,True,True
+rds_iam_auth,identity,module,insecure,Semgrep,True,True
+rds_iam_auth,identity,omitted,insecure,Semgrep,True,True
+rds_publicly_accessible,network exposure,literal,secure,Checkov,True,False
+rds_publicly_accessible,network exposure,literal,insecure,Checkov,True,True
+rds_publicly_accessible,network exposure,variable_default,secure,Checkov,True,False
+rds_publicly_accessible,network exposure,variable_default,insecure,Checkov,True,True
+rds_publicly_accessible,network exposure,tfvars,secure,Checkov,True,False
+rds_publicly_accessible,network exposure,tfvars,insecure,Checkov,True,True
+rds_publicly_accessible,network exposure,local,secure,Checkov,True,False
+rds_publicly_accessible,network exposure,local,insecure,Checkov,True,True
+rds_publicly_accessible,network exposure,conditional,secure,Checkov,True,False
+rds_publicly_accessible,network exposure,conditional,insecure,Checkov,True,True
+rds_publicly_accessible,network exposure,module,secure,Checkov,True,False
+rds_publicly_accessible,network exposure,module,insecure,Checkov,True,True
+rds_publicly_accessible,network exposure,omitted,secure,Checkov,True,False
+rds_publicly_accessible,network exposure,literal,secure,Semgrep,True,False
+rds_publicly_accessible,network exposure,literal,insecure,Semgrep,True,True
+rds_publicly_accessible,network exposure,variable_default,secure,Semgrep,True,False
+rds_publicly_accessible,network exposure,variable_default,insecure,Semgrep,True,True
+rds_publicly_accessible,network exposure,tfvars,secure,Semgrep,True,False
+rds_publicly_accessible,network exposure,tfvars,insecure,Semgrep,True,False
+rds_publicly_accessible,network exposure,local,secure,Semgrep,True,False
+rds_publicly_accessible,network exposure,local,insecure,Semgrep,True,True
+rds_publicly_accessible,network exposure,conditional,secure,Semgrep,True,False
+rds_publicly_accessible,network exposure,conditional,insecure,Semgrep,True,False
+rds_publicly_accessible,network exposure,module,secure,Semgrep,True,False
+rds_publicly_accessible,network exposure,module,insecure,Semgrep,True,False
+rds_publicly_accessible,network exposure,omitted,secure,Semgrep,True,False
+rds_storage_encrypted,encryption at rest,literal,secure,Checkov,True,False
+rds_storage_encrypted,encryption at rest,literal,insecure,Checkov,True,True
+rds_storage_encrypted,encryption at rest,variable_default,secure,Checkov,True,False
+rds_storage_encrypted,encryption at rest,variable_default,insecure,Checkov,True,True
+rds_storage_encrypted,encryption at rest,tfvars,secure,Checkov,True,False
+rds_storage_encrypted,encryption at rest,tfvars,insecure,Checkov,True,True
+rds_storage_encrypted,encryption at rest,local,secure,Checkov,True,False
+rds_storage_encrypted,encryption at rest,local,insecure,Checkov,True,True
+rds_storage_encrypted,encryption at rest,conditional,secure,Checkov,True,False
+rds_storage_encrypted,encryption at rest,conditional,insecure,Checkov,True,True
+rds_storage_encrypted,encryption at rest,module,secure,Checkov,True,False
+rds_storage_encrypted,encryption at rest,module,insecure,Checkov,True,True
+rds_storage_encrypted,encryption at rest,omitted,insecure,Checkov,True,True
+rds_storage_encrypted,encryption at rest,literal,secure,Semgrep,False,False
+rds_storage_encrypted,encryption at rest,literal,insecure,Semgrep,False,False
+rds_storage_encrypted,encryption at rest,variable_default,secure,Semgrep,False,False
+rds_storage_encrypted,encryption at rest,variable_default,insecure,Semgrep,False,False
+rds_storage_encrypted,encryption at rest,tfvars,secure,Semgrep,False,False
+rds_storage_encrypted,encryption at rest,tfvars,insecure,Semgrep,False,False
+rds_storage_encrypted,encryption at rest,local,secure,Semgrep,False,False
+rds_storage_encrypted,encryption at rest,local,insecure,Semgrep,False,False
+rds_storage_encrypted,encryption at rest,conditional,secure,Semgrep,False,False
+rds_storage_encrypted,encryption at rest,conditional,insecure,Semgrep,False,False
+rds_storage_encrypted,encryption at rest,module,secure,Semgrep,False,False
+rds_storage_encrypted,encryption at rest,module,insecure,Semgrep,False,False
+rds_storage_encrypted,encryption at rest,omitted,insecure,Semgrep,False,False
+redshift_public,network exposure,literal,secure,Checkov,True,False
+redshift_public,network exposure,literal,insecure,Checkov,True,True
+redshift_public,network exposure,variable_default,secure,Checkov,True,False
+redshift_public,network exposure,variable_default,insecure,Checkov,True,True
+redshift_public,network exposure,tfvars,secure,Checkov,True,False
+redshift_public,network exposure,tfvars,insecure,Checkov,True,True
+redshift_public,network exposure,local,secure,Checkov,True,False
+redshift_public,network exposure,local,insecure,Checkov,True,True
+redshift_public,network exposure,conditional,secure,Checkov,True,False
+redshift_public,network exposure,conditional,insecure,Checkov,True,True
+redshift_public,network exposure,module,secure,Checkov,True,False
+redshift_public,network exposure,module,insecure,Checkov,True,True
+redshift_public,network exposure,omitted,secure,Checkov,True,True
+redshift_public,network exposure,literal,secure,Semgrep,False,False
+redshift_public,network exposure,literal,insecure,Semgrep,False,False
+redshift_public,network exposure,variable_default,secure,Semgrep,False,False
+redshift_public,network exposure,variable_default,insecure,Semgrep,False,False
+redshift_public,network exposure,tfvars,secure,Semgrep,False,False
+redshift_public,network exposure,tfvars,insecure,Semgrep,False,False
+redshift_public,network exposure,local,secure,Semgrep,False,False
+redshift_public,network exposure,local,insecure,Semgrep,False,False
+redshift_public,network exposure,conditional,secure,Semgrep,False,False
+redshift_public,network exposure,conditional,insecure,Semgrep,False,False
+redshift_public,network exposure,module,secure,Semgrep,False,False
+redshift_public,network exposure,module,insecure,Semgrep,False,False
+redshift_public,network exposure,omitted,secure,Semgrep,False,False
+s3_block_public_acls,network exposure,literal,secure,Checkov,True,False
+s3_block_public_acls,network exposure,literal,insecure,Checkov,True,True
+s3_block_public_acls,network exposure,variable_default,secure,Checkov,True,False
+s3_block_public_acls,network exposure,variable_default,insecure,Checkov,True,True
+s3_block_public_acls,network exposure,tfvars,secure,Checkov,True,False
+s3_block_public_acls,network exposure,tfvars,insecure,Checkov,True,True
+s3_block_public_acls,network exposure,local,secure,Checkov,True,False
+s3_block_public_acls,network exposure,local,insecure,Checkov,True,True
+s3_block_public_acls,network exposure,conditional,secure,Checkov,True,False
+s3_block_public_acls,network exposure,conditional,insecure,Checkov,True,True
+s3_block_public_acls,network exposure,module,secure,Checkov,True,False
+s3_block_public_acls,network exposure,module,insecure,Checkov,True,True
+s3_block_public_acls,network exposure,omitted,insecure,Checkov,True,True
+s3_block_public_acls,network exposure,literal,secure,Semgrep,False,False
+s3_block_public_acls,network exposure,literal,insecure,Semgrep,False,False
+s3_block_public_acls,network exposure,variable_default,secure,Semgrep,False,False
+s3_block_public_acls,network exposure,variable_default,insecure,Semgrep,False,False
+s3_block_public_acls,network exposure,tfvars,secure,Semgrep,False,False
+s3_block_public_acls,network exposure,tfvars,insecure,Semgrep,False,False
+s3_block_public_acls,network exposure,local,secure,Semgrep,False,False
+s3_block_public_acls,network exposure,local,insecure,Semgrep,False,False
+s3_block_public_acls,network exposure,conditional,secure,Semgrep,False,False
+s3_block_public_acls,network exposure,conditional,insecure,Semgrep,False,False
+s3_block_public_acls,network exposure,module,secure,Semgrep,False,False
+s3_block_public_acls,network exposure,module,insecure,Semgrep,False,False
+s3_block_public_acls,network exposure,omitted,insecure,Semgrep,False,False
+s3_public_acl,network exposure,literal,secure,Checkov,False,False
+s3_public_acl,network exposure,literal,insecure,Checkov,False,False
+s3_public_acl,network exposure,variable_default,secure,Checkov,False,False
+s3_public_acl,network exposure,variable_default,insecure,Checkov,False,False
+s3_public_acl,network exposure,tfvars,secure,Checkov,False,False
+s3_public_acl,network exposure,tfvars,insecure,Checkov,False,False
+s3_public_acl,network exposure,local,secure,Checkov,False,False
+s3_public_acl,network exposure,local,insecure,Checkov,False,False
+s3_public_acl,network exposure,conditional,secure,Checkov,False,False
+s3_public_acl,network exposure,conditional,insecure,Checkov,False,False
+s3_public_acl,network exposure,module,secure,Checkov,False,False
+s3_public_acl,network exposure,module,insecure,Checkov,False,False
+s3_public_acl,network exposure,omitted,secure,Checkov,False,False
+s3_public_acl,network exposure,literal,secure,Semgrep,True,False
+s3_public_acl,network exposure,literal,insecure,Semgrep,True,True
+s3_public_acl,network exposure,variable_default,secure,Semgrep,True,False
+s3_public_acl,network exposure,variable_default,insecure,Semgrep,True,True
+s3_public_acl,network exposure,tfvars,secure,Semgrep,True,False
+s3_public_acl,network exposure,tfvars,insecure,Semgrep,True,False
+s3_public_acl,network exposure,local,secure,Semgrep,True,False
+s3_public_acl,network exposure,local,insecure,Semgrep,True,True
+s3_public_acl,network exposure,conditional,secure,Semgrep,True,False
+s3_public_acl,network exposure,conditional,insecure,Semgrep,True,False
+s3_public_acl,network exposure,module,secure,Semgrep,True,False
+s3_public_acl,network exposure,module,insecure,Semgrep,True,False
+s3_public_acl,network exposure,omitted,secure,Semgrep,True,False
+sg_ssh_world,network exposure,literal,secure,Checkov,True,False
+sg_ssh_world,network exposure,literal,insecure,Checkov,True,True
+sg_ssh_world,network exposure,variable_default,secure,Checkov,True,False
+sg_ssh_world,network exposure,variable_default,insecure,Checkov,True,True
+sg_ssh_world,network exposure,tfvars,secure,Checkov,True,False
+sg_ssh_world,network exposure,tfvars,insecure,Checkov,True,True
+sg_ssh_world,network exposure,local,secure,Checkov,True,False
+sg_ssh_world,network exposure,local,insecure,Checkov,True,True
+sg_ssh_world,network exposure,conditional,secure,Checkov,True,False
+sg_ssh_world,network exposure,conditional,insecure,Checkov,True,True
+sg_ssh_world,network exposure,module,secure,Checkov,True,False
+sg_ssh_world,network exposure,module,insecure,Checkov,True,True
+sg_ssh_world,network exposure,omitted,secure,Checkov,True,True
+sg_ssh_world,network exposure,literal,secure,Semgrep,True,False
+sg_ssh_world,network exposure,literal,insecure,Semgrep,True,True
+sg_ssh_world,network exposure,variable_default,secure,Semgrep,True,False
+sg_ssh_world,network exposure,variable_default,insecure,Semgrep,True,False
+sg_ssh_world,network exposure,tfvars,secure,Semgrep,True,False
+sg_ssh_world,network exposure,tfvars,insecure,Semgrep,True,False
+sg_ssh_world,network exposure,local,secure,Semgrep,True,False
+sg_ssh_world,network exposure,local,insecure,Semgrep,True,False
+sg_ssh_world,network exposure,conditional,secure,Semgrep,True,False
+sg_ssh_world,network exposure,conditional,insecure,Semgrep,True,False
+sg_ssh_world,network exposure,module,secure,Semgrep,True,False
+sg_ssh_world,network exposure,module,insecure,Semgrep,True,False
+sg_ssh_world,network exposure,omitted,secure,Semgrep,True,False
+sns_kms,encryption at rest,literal,secure,Checkov,True,False
+sns_kms,encryption at rest,literal,insecure,Checkov,True,True
+sns_kms,encryption at rest,variable_default,secure,Checkov,True,False
+sns_kms,encryption at rest,variable_default,insecure,Checkov,True,False
+sns_kms,encryption at rest,tfvars,secure,Checkov,True,False
+sns_kms,encryption at rest,tfvars,insecure,Checkov,True,False
+sns_kms,encryption at rest,local,secure,Checkov,True,False
+sns_kms,encryption at rest,local,insecure,Checkov,True,False
+sns_kms,encryption at rest,conditional,secure,Checkov,True,False
+sns_kms,encryption at rest,conditional,insecure,Checkov,True,False
+sns_kms,encryption at rest,module,secure,Checkov,True,False
+sns_kms,encryption at rest,module,insecure,Checkov,True,False
+sns_kms,encryption at rest,omitted,insecure,Checkov,True,True
+sns_kms,encryption at rest,literal,secure,Semgrep,False,False
+sns_kms,encryption at rest,literal,insecure,Semgrep,False,False
+sns_kms,encryption at rest,variable_default,secure,Semgrep,False,False
+sns_kms,encryption at rest,variable_default,insecure,Semgrep,False,False
+sns_kms,encryption at rest,tfvars,secure,Semgrep,False,False
+sns_kms,encryption at rest,tfvars,insecure,Semgrep,False,False
+sns_kms,encryption at rest,local,secure,Semgrep,False,False
+sns_kms,encryption at rest,local,insecure,Semgrep,False,False
+sns_kms,encryption at rest,conditional,secure,Semgrep,False,False
+sns_kms,encryption at rest,conditional,insecure,Semgrep,False,False
+sns_kms,encryption at rest,module,secure,Semgrep,False,False
+sns_kms,encryption at rest,module,insecure,Semgrep,False,False
+sns_kms,encryption at rest,omitted,insecure,Semgrep,False,False
+sqs_sse,encryption at rest,literal,secure,Checkov,True,False
+sqs_sse,encryption at rest,literal,insecure,Checkov,True,True
+sqs_sse,encryption at rest,variable_default,secure,Checkov,True,False
+sqs_sse,encryption at rest,variable_default,insecure,Checkov,True,True
+sqs_sse,encryption at rest,tfvars,secure,Checkov,True,False
+sqs_sse,encryption at rest,tfvars,insecure,Checkov,True,True
+sqs_sse,encryption at rest,local,secure,Checkov,True,False
+sqs_sse,encryption at rest,local,insecure,Checkov,True,True
+sqs_sse,encryption at rest,conditional,secure,Checkov,True,False
+sqs_sse,encryption at rest,conditional,insecure,Checkov,True,True
+sqs_sse,encryption at rest,module,secure,Checkov,True,False
+sqs_sse,encryption at rest,module,insecure,Checkov,True,True
+sqs_sse,encryption at rest,omitted,secure,Checkov,True,True
+sqs_sse,encryption at rest,literal,secure,Semgrep,True,False
+sqs_sse,encryption at rest,literal,insecure,Semgrep,True,True
+sqs_sse,encryption at rest,variable_default,secure,Semgrep,True,False
+sqs_sse,encryption at rest,variable_default,insecure,Semgrep,True,True
+sqs_sse,encryption at rest,tfvars,secure,Semgrep,True,True
+sqs_sse,encryption at rest,tfvars,insecure,Semgrep,True,True
+sqs_sse,encryption at rest,local,secure,Semgrep,True,False
+sqs_sse,encryption at rest,local,insecure,Semgrep,True,True
+sqs_sse,encryption at rest,conditional,secure,Semgrep,True,True
+sqs_sse,encryption at rest,conditional,insecure,Semgrep,True,True
+sqs_sse,encryption at rest,module,secure,Semgrep,True,True
+sqs_sse,encryption at rest,module,insecure,Semgrep,True,True
+sqs_sse,encryption at rest,omitted,secure,Semgrep,True,True

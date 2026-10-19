@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+corpus/
+semgrep-rules/
+raw/
+paper/*.aux
+paper/*.log
+paper/*.bbl
+paper/*.blg
+paper/*.out
+paper/*.fls
+paper/*.fdb_latexmk

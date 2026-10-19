@@ -1,0 +1,165 @@
+{
+ "categories": 24,
+ "coverage": {
+  "Checkov": 21,
+  "Semgrep": 14
+ },
+ "both": 12,
+ "neither": 1,
+ "only_checkov": [
+  "cloudtrail_log_validation",
+  "ec2_root_encrypted",
+  "efs_encrypted",
+  "elasticache_transit",
+  "rds_deletion_protection",
+  "rds_storage_encrypted",
+  "redshift_public",
+  "s3_block_public_acls",
+  "sns_kms"
+ ],
+ "only_semgrep": [
+  "lambda_tracing",
+  "s3_public_acl"
+ ],
+ "neither_list": [
+  "opensearch_node_to_node"
+ ],
+ "idiom": [
+  {
+   "scanner": "Checkov",
+   "idiom": "literal",
+   "n_insecure": 21,
+   "recall": 1.0,
+   "n_secure": 21,
+   "fpr": 0.0
+  },
+  {
+   "scanner": "Checkov",
+   "idiom": "variable_default",
+   "n_insecure": 21,
+   "recall": 0.952,
+   "n_secure": 21,
+   "fpr": 0.0
+  },
+  {
+   "scanner": "Checkov",
+   "idiom": "tfvars",
+   "n_insecure": 21,
+   "recall": 0.952,
+   "n_secure": 21,
+   "fpr": 0.0
+  },
+  {
+   "scanner": "Checkov",
+   "idiom": "local",
+   "n_insecure": 21,
+   "recall": 0.952,
+   "n_secure": 21,
+   "fpr": 0.0
+  },
+  {
+   "scanner": "Checkov",
+   "idiom": "conditional",
+   "n_insecure": 21,
+   "recall": 0.952,
+   "n_secure": 21,
+   "fpr": 0.0
+  },
+  {
+   "scanner": "Checkov",
+   "idiom": "module",
+   "n_insecure": 21,
+   "recall": 0.952,
+   "n_secure": 21,
+   "fpr": 0.0
+  },
+  {
+   "scanner": "Checkov",
+   "idiom": "omitted",
+   "n_insecure": 17,
+   "recall": 1.0,
+   "n_secure": 4,
+   "fpr": 0.75
+  },
+  {
+   "scanner": "Semgrep",
+   "idiom": "literal",
+   "n_insecure": 14,
+   "recall": 1.0,
+   "n_secure": 14,
+   "fpr": 0.0
+  },
+  {
+   "scanner": "Semgrep",
+   "idiom": "variable_default",
+   "n_insecure": 14,
+   "recall": 0.929,
+   "n_secure": 14,
+   "fpr": 0.0
+  },
+  {
+   "scanner": "Semgrep",
+   "idiom": "tfvars",
+   "n_insecure": 14,
+   "recall": 0.786,
+   "n_secure": 14,
+   "fpr": 0.786
+  },
+  {
+   "scanner": "Semgrep",
+   "idiom": "local",
+   "n_insecure": 14,
+   "recall": 0.929,
+   "n_secure": 14,
+   "fpr": 0.0
+  },
+  {
+   "scanner": "Semgrep",
+   "idiom": "conditional",
+   "n_insecure": 14,
+   "recall": 0.786,
+   "n_secure": 14,
+   "fpr": 0.786
+  },
+  {
+   "scanner": "Semgrep",
+   "idiom": "module",
+   "n_insecure": 14,
+   "recall": 0.786,
+   "n_secure": 14,
+   "fpr": 0.786
+  },
+  {
+   "scanner": "Semgrep",
+   "idiom": "omitted",
+   "n_insecure": 10,
+   "recall": 1.0,
+   "n_secure": 4,
+   "fpr": 0.25
+  }
+ ],
+ "corpus": {
+  "projects": 53,
+  "tf_files": 2179,
+  "checkov_total": 2255,
+  "semgrep_total": 281,
+  "pairs": 63,
+  "both": 7,
+  "checkov_only": 56,
+  "semgrep_only": 0,
+  "both_covered_categories": [
+   "dynamodb_pitr",
+   "ebs_volume_encrypted",
+   "ec2_imdsv2",
+   "ecr_immutable_tags",
+   "ecr_scan_on_push",
+   "eks_public_endpoint",
+   "kinesis_encryption",
+   "kms_rotation",
+   "rds_iam_auth",
+   "rds_publicly_accessible",
+   "sg_ssh_world",
+   "sqs_sse"
+  ]
+ }
+}

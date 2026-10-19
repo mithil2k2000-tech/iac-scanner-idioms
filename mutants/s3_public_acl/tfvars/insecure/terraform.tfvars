@@ -1,0 +1,1 @@
+setting = "public-read"

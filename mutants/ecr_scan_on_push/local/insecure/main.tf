@@ -1,0 +1,21 @@
+terraform {
+  required_providers {
+    aws = { source = "hashicorp/aws" }
+  }
+}
+
+provider "aws" {
+  region = "eu-west-2"
+}
+
+locals {
+  setting = false
+}
+
+resource "aws_ecr_repository" "this" {
+  name                 = "app"
+  image_tag_mutability = "IMMUTABLE"
+  image_scanning_configuration {
+    scan_on_push = local.setting
+  }
+}

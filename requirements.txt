@@ -1,0 +1,5 @@
+checkov==3.3.29
+semgrep==1.181.0
+pandas>=2.2
+matplotlib>=3.9
+jinja2>=3.1

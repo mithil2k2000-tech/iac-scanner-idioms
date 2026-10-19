@@ -1,0 +1,122 @@
+{
+ "cloudtrail_log_validation|Checkov": [
+  "CKV_AWS_36"
+ ],
+ "cloudtrail_log_validation|Semgrep": [],
+ "dynamodb_pitr|Checkov": [
+  "CKV_AWS_28"
+ ],
+ "dynamodb_pitr|Semgrep": [
+  "aws-dynamodb-point-in-time-recovery-disabled"
+ ],
+ "ebs_volume_encrypted|Checkov": [
+  "CKV_AWS_3"
+ ],
+ "ebs_volume_encrypted|Semgrep": [
+  "aws-ebs-volume-unencrypted"
+ ],
+ "ec2_imdsv2|Checkov": [
+  "CKV_AWS_79"
+ ],
+ "ec2_imdsv2|Semgrep": [
+  "ec2-imdsv1-optional"
+ ],
+ "ec2_root_encrypted|Checkov": [
+  "CKV_AWS_8"
+ ],
+ "ec2_root_encrypted|Semgrep": [],
+ "ecr_immutable_tags|Checkov": [
+  "CKV_AWS_51"
+ ],
+ "ecr_immutable_tags|Semgrep": [
+  "aws-ecr-mutable-image-tags"
+ ],
+ "ecr_scan_on_push|Checkov": [
+  "CKV_AWS_163"
+ ],
+ "ecr_scan_on_push|Semgrep": [
+  "aws-ecr-image-scanning-disabled",
+  "ecr-image-scan-on-push"
+ ],
+ "efs_encrypted|Checkov": [
+  "CKV_AWS_42"
+ ],
+ "efs_encrypted|Semgrep": [],
+ "eks_public_endpoint|Checkov": [
+  "CKV_AWS_38",
+  "CKV_AWS_39"
+ ],
+ "eks_public_endpoint|Semgrep": [
+  "eks-public-endpoint-enabled"
+ ],
+ "elasticache_transit|Checkov": [
+  "CKV_AWS_30"
+ ],
+ "elasticache_transit|Semgrep": [],
+ "kinesis_encryption|Checkov": [
+  "CKV_AWS_43"
+ ],
+ "kinesis_encryption|Semgrep": [
+  "aws-kinesis-stream-unencrypted"
+ ],
+ "kms_rotation|Checkov": [
+  "CKV_AWS_7"
+ ],
+ "kms_rotation|Semgrep": [
+  "aws-kms-no-rotation"
+ ],
+ "lambda_tracing|Checkov": [],
+ "lambda_tracing|Semgrep": [
+  "aws-lambda-x-ray-tracing-not-active"
+ ],
+ "opensearch_node_to_node|Checkov": [],
+ "opensearch_node_to_node|Semgrep": [],
+ "rds_deletion_protection|Checkov": [
+  "CKV_AWS_293"
+ ],
+ "rds_deletion_protection|Semgrep": [],
+ "rds_iam_auth|Checkov": [
+  "CKV_AWS_161"
+ ],
+ "rds_iam_auth|Semgrep": [
+  "aws-rds-iam-authentication-not-enabled"
+ ],
+ "rds_publicly_accessible|Checkov": [
+  "CKV_AWS_17"
+ ],
+ "rds_publicly_accessible|Semgrep": [
+  "rds-public-access"
+ ],
+ "rds_storage_encrypted|Checkov": [
+  "CKV_AWS_16"
+ ],
+ "rds_storage_encrypted|Semgrep": [],
+ "redshift_public|Checkov": [
+  "CKV_AWS_87"
+ ],
+ "redshift_public|Semgrep": [],
+ "s3_block_public_acls|Checkov": [
+  "CKV_AWS_53"
+ ],
+ "s3_block_public_acls|Semgrep": [],
+ "s3_public_acl|Checkov": [],
+ "s3_public_acl|Semgrep": [
+  "s3-public-read-bucket"
+ ],
+ "sg_ssh_world|Checkov": [
+  "CKV_AWS_24"
+ ],
+ "sg_ssh_world|Semgrep": [
+  "aws-ec2-security-group-allows-public-ingress"
+ ],
+ "sns_kms|Checkov": [
+  "CKV_AWS_26"
+ ],
+ "sns_kms|Semgrep": [],
+ "sqs_sse|Checkov": [
+  "CKV_AWS_27"
+ ],
+ "sqs_sse|Semgrep": [
+  "aws-sqs-queue-unencrypted"
+ ]
+}

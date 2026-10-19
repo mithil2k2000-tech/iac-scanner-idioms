@@ -1,0 +1,1 @@
+setting = "alias/aws/sns"

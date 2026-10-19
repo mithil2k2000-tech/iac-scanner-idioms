@@ -1,0 +1,15 @@
+terraform {
+  required_providers {
+    aws = { source = "hashicorp/aws" }
+  }
+}
+
+provider "aws" {
+  region = "eu-west-2"
+}
+
+resource "aws_cloudtrail" "this" {
+  name                       = "app"
+  s3_bucket_name             = "app-trail"
+  is_multi_region_trail      = true
+}

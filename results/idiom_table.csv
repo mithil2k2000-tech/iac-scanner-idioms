@@ -1,0 +1,15 @@
+scanner,idiom,n_insecure,recall,n_secure,fpr
+Checkov,literal,21,1.0,21,0.0
+Checkov,variable_default,21,0.9523809523809523,21,0.0
+Checkov,tfvars,21,0.9523809523809523,21,0.0
+Checkov,local,21,0.9523809523809523,21,0.0
+Checkov,conditional,21,0.9523809523809523,21,0.0
+Checkov,module,21,0.9523809523809523,21,0.0
+Checkov,omitted,17,1.0,4,0.75
+Semgrep,literal,14,1.0,14,0.0
+Semgrep,variable_default,14,0.9285714285714286,14,0.0
+Semgrep,tfvars,14,0.7857142857142857,14,0.7857142857142857
+Semgrep,local,14,0.9285714285714286,14,0.0
+Semgrep,conditional,14,0.7857142857142857,14,0.7857142857142857
+Semgrep,module,14,0.7857142857142857,14,0.7857142857142857
+Semgrep,omitted,10,1.0,4,0.25

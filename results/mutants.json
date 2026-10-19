@@ -1,0 +1,2186 @@
+[
+ {
+  "category": "rds_storage_encrypted",
+  "family": "encryption at rest",
+  "idiom": "literal",
+  "truth": "secure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_storage_encrypted",
+  "family": "encryption at rest",
+  "idiom": "literal",
+  "truth": "insecure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_storage_encrypted",
+  "family": "encryption at rest",
+  "idiom": "variable_default",
+  "truth": "secure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_storage_encrypted",
+  "family": "encryption at rest",
+  "idiom": "variable_default",
+  "truth": "insecure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_storage_encrypted",
+  "family": "encryption at rest",
+  "idiom": "tfvars",
+  "truth": "secure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_storage_encrypted",
+  "family": "encryption at rest",
+  "idiom": "tfvars",
+  "truth": "insecure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_storage_encrypted",
+  "family": "encryption at rest",
+  "idiom": "local",
+  "truth": "secure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_storage_encrypted",
+  "family": "encryption at rest",
+  "idiom": "local",
+  "truth": "insecure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_storage_encrypted",
+  "family": "encryption at rest",
+  "idiom": "conditional",
+  "truth": "secure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_storage_encrypted",
+  "family": "encryption at rest",
+  "idiom": "conditional",
+  "truth": "insecure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_storage_encrypted",
+  "family": "encryption at rest",
+  "idiom": "module",
+  "truth": "secure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_storage_encrypted",
+  "family": "encryption at rest",
+  "idiom": "module",
+  "truth": "insecure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_storage_encrypted",
+  "family": "encryption at rest",
+  "idiom": "omitted",
+  "truth": "insecure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_publicly_accessible",
+  "family": "network exposure",
+  "idiom": "literal",
+  "truth": "secure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_publicly_accessible",
+  "family": "network exposure",
+  "idiom": "literal",
+  "truth": "insecure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_publicly_accessible",
+  "family": "network exposure",
+  "idiom": "variable_default",
+  "truth": "secure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_publicly_accessible",
+  "family": "network exposure",
+  "idiom": "variable_default",
+  "truth": "insecure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_publicly_accessible",
+  "family": "network exposure",
+  "idiom": "tfvars",
+  "truth": "secure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_publicly_accessible",
+  "family": "network exposure",
+  "idiom": "tfvars",
+  "truth": "insecure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_publicly_accessible",
+  "family": "network exposure",
+  "idiom": "local",
+  "truth": "secure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_publicly_accessible",
+  "family": "network exposure",
+  "idiom": "local",
+  "truth": "insecure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_publicly_accessible",
+  "family": "network exposure",
+  "idiom": "conditional",
+  "truth": "secure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_publicly_accessible",
+  "family": "network exposure",
+  "idiom": "conditional",
+  "truth": "insecure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_publicly_accessible",
+  "family": "network exposure",
+  "idiom": "module",
+  "truth": "secure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_publicly_accessible",
+  "family": "network exposure",
+  "idiom": "module",
+  "truth": "insecure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_publicly_accessible",
+  "family": "network exposure",
+  "idiom": "omitted",
+  "truth": "secure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_iam_auth",
+  "family": "identity",
+  "idiom": "literal",
+  "truth": "secure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_iam_auth",
+  "family": "identity",
+  "idiom": "literal",
+  "truth": "insecure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_iam_auth",
+  "family": "identity",
+  "idiom": "variable_default",
+  "truth": "secure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_iam_auth",
+  "family": "identity",
+  "idiom": "variable_default",
+  "truth": "insecure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_iam_auth",
+  "family": "identity",
+  "idiom": "tfvars",
+  "truth": "secure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_iam_auth",
+  "family": "identity",
+  "idiom": "tfvars",
+  "truth": "insecure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_iam_auth",
+  "family": "identity",
+  "idiom": "local",
+  "truth": "secure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_iam_auth",
+  "family": "identity",
+  "idiom": "local",
+  "truth": "insecure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_iam_auth",
+  "family": "identity",
+  "idiom": "conditional",
+  "truth": "secure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_iam_auth",
+  "family": "identity",
+  "idiom": "conditional",
+  "truth": "insecure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_iam_auth",
+  "family": "identity",
+  "idiom": "module",
+  "truth": "secure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_iam_auth",
+  "family": "identity",
+  "idiom": "module",
+  "truth": "insecure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_iam_auth",
+  "family": "identity",
+  "idiom": "omitted",
+  "truth": "insecure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_deletion_protection",
+  "family": "resilience",
+  "idiom": "literal",
+  "truth": "secure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_deletion_protection",
+  "family": "resilience",
+  "idiom": "literal",
+  "truth": "insecure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_deletion_protection",
+  "family": "resilience",
+  "idiom": "variable_default",
+  "truth": "secure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_deletion_protection",
+  "family": "resilience",
+  "idiom": "variable_default",
+  "truth": "insecure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_deletion_protection",
+  "family": "resilience",
+  "idiom": "tfvars",
+  "truth": "secure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_deletion_protection",
+  "family": "resilience",
+  "idiom": "tfvars",
+  "truth": "insecure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_deletion_protection",
+  "family": "resilience",
+  "idiom": "local",
+  "truth": "secure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_deletion_protection",
+  "family": "resilience",
+  "idiom": "local",
+  "truth": "insecure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_deletion_protection",
+  "family": "resilience",
+  "idiom": "conditional",
+  "truth": "secure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_deletion_protection",
+  "family": "resilience",
+  "idiom": "conditional",
+  "truth": "insecure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_deletion_protection",
+  "family": "resilience",
+  "idiom": "module",
+  "truth": "secure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_deletion_protection",
+  "family": "resilience",
+  "idiom": "module",
+  "truth": "insecure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "rds_deletion_protection",
+  "family": "resilience",
+  "idiom": "omitted",
+  "truth": "insecure",
+  "resource": "aws_db_instance"
+ },
+ {
+  "category": "ebs_volume_encrypted",
+  "family": "encryption at rest",
+  "idiom": "literal",
+  "truth": "secure",
+  "resource": "aws_ebs_volume"
+ },
+ {
+  "category": "ebs_volume_encrypted",
+  "family": "encryption at rest",
+  "idiom": "literal",
+  "truth": "insecure",
+  "resource": "aws_ebs_volume"
+ },
+ {
+  "category": "ebs_volume_encrypted",
+  "family": "encryption at rest",
+  "idiom": "variable_default",
+  "truth": "secure",
+  "resource": "aws_ebs_volume"
+ },
+ {
+  "category": "ebs_volume_encrypted",
+  "family": "encryption at rest",
+  "idiom": "variable_default",
+  "truth": "insecure",
+  "resource": "aws_ebs_volume"
+ },
+ {
+  "category": "ebs_volume_encrypted",
+  "family": "encryption at rest",
+  "idiom": "tfvars",
+  "truth": "secure",
+  "resource": "aws_ebs_volume"
+ },
+ {
+  "category": "ebs_volume_encrypted",
+  "family": "encryption at rest",
+  "idiom": "tfvars",
+  "truth": "insecure",
+  "resource": "aws_ebs_volume"
+ },
+ {
+  "category": "ebs_volume_encrypted",
+  "family": "encryption at rest",
+  "idiom": "local",
+  "truth": "secure",
+  "resource": "aws_ebs_volume"
+ },
+ {
+  "category": "ebs_volume_encrypted",
+  "family": "encryption at rest",
+  "idiom": "local",
+  "truth": "insecure",
+  "resource": "aws_ebs_volume"
+ },
+ {
+  "category": "ebs_volume_encrypted",
+  "family": "encryption at rest",
+  "idiom": "conditional",
+  "truth": "secure",
+  "resource": "aws_ebs_volume"
+ },
+ {
+  "category": "ebs_volume_encrypted",
+  "family": "encryption at rest",
+  "idiom": "conditional",
+  "truth": "insecure",
+  "resource": "aws_ebs_volume"
+ },
+ {
+  "category": "ebs_volume_encrypted",
+  "family": "encryption at rest",
+  "idiom": "module",
+  "truth": "secure",
+  "resource": "aws_ebs_volume"
+ },
+ {
+  "category": "ebs_volume_encrypted",
+  "family": "encryption at rest",
+  "idiom": "module",
+  "truth": "insecure",
+  "resource": "aws_ebs_volume"
+ },
+ {
+  "category": "ebs_volume_encrypted",
+  "family": "encryption at rest",
+  "idiom": "omitted",
+  "truth": "insecure",
+  "resource": "aws_ebs_volume"
+ },
+ {
+  "category": "efs_encrypted",
+  "family": "encryption at rest",
+  "idiom": "literal",
+  "truth": "secure",
+  "resource": "aws_efs_file_system"
+ },
+ {
+  "category": "efs_encrypted",
+  "family": "encryption at rest",
+  "idiom": "literal",
+  "truth": "insecure",
+  "resource": "aws_efs_file_system"
+ },
+ {
+  "category": "efs_encrypted",
+  "family": "encryption at rest",
+  "idiom": "variable_default",
+  "truth": "secure",
+  "resource": "aws_efs_file_system"
+ },
+ {
+  "category": "efs_encrypted",
+  "family": "encryption at rest",
+  "idiom": "variable_default",
+  "truth": "insecure",
+  "resource": "aws_efs_file_system"
+ },
+ {
+  "category": "efs_encrypted",
+  "family": "encryption at rest",
+  "idiom": "tfvars",
+  "truth": "secure",
+  "resource": "aws_efs_file_system"
+ },
+ {
+  "category": "efs_encrypted",
+  "family": "encryption at rest",
+  "idiom": "tfvars",
+  "truth": "insecure",
+  "resource": "aws_efs_file_system"
+ },
+ {
+  "category": "efs_encrypted",
+  "family": "encryption at rest",
+  "idiom": "local",
+  "truth": "secure",
+  "resource": "aws_efs_file_system"
+ },
+ {
+  "category": "efs_encrypted",
+  "family": "encryption at rest",
+  "idiom": "local",
+  "truth": "insecure",
+  "resource": "aws_efs_file_system"
+ },
+ {
+  "category": "efs_encrypted",
+  "family": "encryption at rest",
+  "idiom": "conditional",
+  "truth": "secure",
+  "resource": "aws_efs_file_system"
+ },
+ {
+  "category": "efs_encrypted",
+  "family": "encryption at rest",
+  "idiom": "conditional",
+  "truth": "insecure",
+  "resource": "aws_efs_file_system"
+ },
+ {
+  "category": "efs_encrypted",
+  "family": "encryption at rest",
+  "idiom": "module",
+  "truth": "secure",
+  "resource": "aws_efs_file_system"
+ },
+ {
+  "category": "efs_encrypted",
+  "family": "encryption at rest",
+  "idiom": "module",
+  "truth": "insecure",
+  "resource": "aws_efs_file_system"
+ },
+ {
+  "category": "efs_encrypted",
+  "family": "encryption at rest",
+  "idiom": "omitted",
+  "truth": "insecure",
+  "resource": "aws_efs_file_system"
+ },
+ {
+  "category": "sg_ssh_world",
+  "family": "network exposure",
+  "idiom": "literal",
+  "truth": "secure",
+  "resource": "aws_security_group"
+ },
+ {
+  "category": "sg_ssh_world",
+  "family": "network exposure",
+  "idiom": "literal",
+  "truth": "insecure",
+  "resource": "aws_security_group"
+ },
+ {
+  "category": "sg_ssh_world",
+  "family": "network exposure",
+  "idiom": "variable_default",
+  "truth": "secure",
+  "resource": "aws_security_group"
+ },
+ {
+  "category": "sg_ssh_world",
+  "family": "network exposure",
+  "idiom": "variable_default",
+  "truth": "insecure",
+  "resource": "aws_security_group"
+ },
+ {
+  "category": "sg_ssh_world",
+  "family": "network exposure",
+  "idiom": "tfvars",
+  "truth": "secure",
+  "resource": "aws_security_group"
+ },
+ {
+  "category": "sg_ssh_world",
+  "family": "network exposure",
+  "idiom": "tfvars",
+  "truth": "insecure",
+  "resource": "aws_security_group"
+ },
+ {
+  "category": "sg_ssh_world",
+  "family": "network exposure",
+  "idiom": "local",
+  "truth": "secure",
+  "resource": "aws_security_group"
+ },
+ {
+  "category": "sg_ssh_world",
+  "family": "network exposure",
+  "idiom": "local",
+  "truth": "insecure",
+  "resource": "aws_security_group"
+ },
+ {
+  "category": "sg_ssh_world",
+  "family": "network exposure",
+  "idiom": "conditional",
+  "truth": "secure",
+  "resource": "aws_security_group"
+ },
+ {
+  "category": "sg_ssh_world",
+  "family": "network exposure",
+  "idiom": "conditional",
+  "truth": "insecure",
+  "resource": "aws_security_group"
+ },
+ {
+  "category": "sg_ssh_world",
+  "family": "network exposure",
+  "idiom": "module",
+  "truth": "secure",
+  "resource": "aws_security_group"
+ },
+ {
+  "category": "sg_ssh_world",
+  "family": "network exposure",
+  "idiom": "module",
+  "truth": "insecure",
+  "resource": "aws_security_group"
+ },
+ {
+  "category": "sg_ssh_world",
+  "family": "network exposure",
+  "idiom": "omitted",
+  "truth": "secure",
+  "resource": "aws_security_group"
+ },
+ {
+  "category": "sqs_sse",
+  "family": "encryption at rest",
+  "idiom": "literal",
+  "truth": "secure",
+  "resource": "aws_sqs_queue"
+ },
+ {
+  "category": "sqs_sse",
+  "family": "encryption at rest",
+  "idiom": "literal",
+  "truth": "insecure",
+  "resource": "aws_sqs_queue"
+ },
+ {
+  "category": "sqs_sse",
+  "family": "encryption at rest",
+  "idiom": "variable_default",
+  "truth": "secure",
+  "resource": "aws_sqs_queue"
+ },
+ {
+  "category": "sqs_sse",
+  "family": "encryption at rest",
+  "idiom": "variable_default",
+  "truth": "insecure",
+  "resource": "aws_sqs_queue"
+ },
+ {
+  "category": "sqs_sse",
+  "family": "encryption at rest",
+  "idiom": "tfvars",
+  "truth": "secure",
+  "resource": "aws_sqs_queue"
+ },
+ {
+  "category": "sqs_sse",
+  "family": "encryption at rest",
+  "idiom": "tfvars",
+  "truth": "insecure",
+  "resource": "aws_sqs_queue"
+ },
+ {
+  "category": "sqs_sse",
+  "family": "encryption at rest",
+  "idiom": "local",
+  "truth": "secure",
+  "resource": "aws_sqs_queue"
+ },
+ {
+  "category": "sqs_sse",
+  "family": "encryption at rest",
+  "idiom": "local",
+  "truth": "insecure",
+  "resource": "aws_sqs_queue"
+ },
+ {
+  "category": "sqs_sse",
+  "family": "encryption at rest",
+  "idiom": "conditional",
+  "truth": "secure",
+  "resource": "aws_sqs_queue"
+ },
+ {
+  "category": "sqs_sse",
+  "family": "encryption at rest",
+  "idiom": "conditional",
+  "truth": "insecure",
+  "resource": "aws_sqs_queue"
+ },
+ {
+  "category": "sqs_sse",
+  "family": "encryption at rest",
+  "idiom": "module",
+  "truth": "secure",
+  "resource": "aws_sqs_queue"
+ },
+ {
+  "category": "sqs_sse",
+  "family": "encryption at rest",
+  "idiom": "module",
+  "truth": "insecure",
+  "resource": "aws_sqs_queue"
+ },
+ {
+  "category": "sqs_sse",
+  "family": "encryption at rest",
+  "idiom": "omitted",
+  "truth": "secure",
+  "resource": "aws_sqs_queue"
+ },
+ {
+  "category": "sns_kms",
+  "family": "encryption at rest",
+  "idiom": "literal",
+  "truth": "secure",
+  "resource": "aws_sns_topic"
+ },
+ {
+  "category": "sns_kms",
+  "family": "encryption at rest",
+  "idiom": "literal",
+  "truth": "insecure",
+  "resource": "aws_sns_topic"
+ },
+ {
+  "category": "sns_kms",
+  "family": "encryption at rest",
+  "idiom": "variable_default",
+  "truth": "secure",
+  "resource": "aws_sns_topic"
+ },
+ {
+  "category": "sns_kms",
+  "family": "encryption at rest",
+  "idiom": "variable_default",
+  "truth": "insecure",
+  "resource": "aws_sns_topic"
+ },
+ {
+  "category": "sns_kms",
+  "family": "encryption at rest",
+  "idiom": "tfvars",
+  "truth": "secure",
+  "resource": "aws_sns_topic"
+ },
+ {
+  "category": "sns_kms",
+  "family": "encryption at rest",
+  "idiom": "tfvars",
+  "truth": "insecure",
+  "resource": "aws_sns_topic"
+ },
+ {
+  "category": "sns_kms",
+  "family": "encryption at rest",
+  "idiom": "local",
+  "truth": "secure",
+  "resource": "aws_sns_topic"
+ },
+ {
+  "category": "sns_kms",
+  "family": "encryption at rest",
+  "idiom": "local",
+  "truth": "insecure",
+  "resource": "aws_sns_topic"
+ },
+ {
+  "category": "sns_kms",
+  "family": "encryption at rest",
+  "idiom": "conditional",
+  "truth": "secure",
+  "resource": "aws_sns_topic"
+ },
+ {
+  "category": "sns_kms",
+  "family": "encryption at rest",
+  "idiom": "conditional",
+  "truth": "insecure",
+  "resource": "aws_sns_topic"
+ },
+ {
+  "category": "sns_kms",
+  "family": "encryption at rest",
+  "idiom": "module",
+  "truth": "secure",
+  "resource": "aws_sns_topic"
+ },
+ {
+  "category": "sns_kms",
+  "family": "encryption at rest",
+  "idiom": "module",
+  "truth": "insecure",
+  "resource": "aws_sns_topic"
+ },
+ {
+  "category": "sns_kms",
+  "family": "encryption at rest",
+  "idiom": "omitted",
+  "truth": "insecure",
+  "resource": "aws_sns_topic"
+ },
+ {
+  "category": "kms_rotation",
+  "family": "key management",
+  "idiom": "literal",
+  "truth": "secure",
+  "resource": "aws_kms_key"
+ },
+ {
+  "category": "kms_rotation",
+  "family": "key management",
+  "idiom": "literal",
+  "truth": "insecure",
+  "resource": "aws_kms_key"
+ },
+ {
+  "category": "kms_rotation",
+  "family": "key management",
+  "idiom": "variable_default",
+  "truth": "secure",
+  "resource": "aws_kms_key"
+ },
+ {
+  "category": "kms_rotation",
+  "family": "key management",
+  "idiom": "variable_default",
+  "truth": "insecure",
+  "resource": "aws_kms_key"
+ },
+ {
+  "category": "kms_rotation",
+  "family": "key management",
+  "idiom": "tfvars",
+  "truth": "secure",
+  "resource": "aws_kms_key"
+ },
+ {
+  "category": "kms_rotation",
+  "family": "key management",
+  "idiom": "tfvars",
+  "truth": "insecure",
+  "resource": "aws_kms_key"
+ },
+ {
+  "category": "kms_rotation",
+  "family": "key management",
+  "idiom": "local",
+  "truth": "secure",
+  "resource": "aws_kms_key"
+ },
+ {
+  "category": "kms_rotation",
+  "family": "key management",
+  "idiom": "local",
+  "truth": "insecure",
+  "resource": "aws_kms_key"
+ },
+ {
+  "category": "kms_rotation",
+  "family": "key management",
+  "idiom": "conditional",
+  "truth": "secure",
+  "resource": "aws_kms_key"
+ },
+ {
+  "category": "kms_rotation",
+  "family": "key management",
+  "idiom": "conditional",
+  "truth": "insecure",
+  "resource": "aws_kms_key"
+ },
+ {
+  "category": "kms_rotation",
+  "family": "key management",
+  "idiom": "module",
+  "truth": "secure",
+  "resource": "aws_kms_key"
+ },
+ {
+  "category": "kms_rotation",
+  "family": "key management",
+  "idiom": "module",
+  "truth": "insecure",
+  "resource": "aws_kms_key"
+ },
+ {
+  "category": "kms_rotation",
+  "family": "key management",
+  "idiom": "omitted",
+  "truth": "insecure",
+  "resource": "aws_kms_key"
+ },
+ {
+  "category": "dynamodb_pitr",
+  "family": "resilience",
+  "idiom": "literal",
+  "truth": "secure",
+  "resource": "aws_dynamodb_table"
+ },
+ {
+  "category": "dynamodb_pitr",
+  "family": "resilience",
+  "idiom": "literal",
+  "truth": "insecure",
+  "resource": "aws_dynamodb_table"
+ },
+ {
+  "category": "dynamodb_pitr",
+  "family": "resilience",
+  "idiom": "variable_default",
+  "truth": "secure",
+  "resource": "aws_dynamodb_table"
+ },
+ {
+  "category": "dynamodb_pitr",
+  "family": "resilience",
+  "idiom": "variable_default",
+  "truth": "insecure",
+  "resource": "aws_dynamodb_table"
+ },
+ {
+  "category": "dynamodb_pitr",
+  "family": "resilience",
+  "idiom": "tfvars",
+  "truth": "secure",
+  "resource": "aws_dynamodb_table"
+ },
+ {
+  "category": "dynamodb_pitr",
+  "family": "resilience",
+  "idiom": "tfvars",
+  "truth": "insecure",
+  "resource": "aws_dynamodb_table"
+ },
+ {
+  "category": "dynamodb_pitr",
+  "family": "resilience",
+  "idiom": "local",
+  "truth": "secure",
+  "resource": "aws_dynamodb_table"
+ },
+ {
+  "category": "dynamodb_pitr",
+  "family": "resilience",
+  "idiom": "local",
+  "truth": "insecure",
+  "resource": "aws_dynamodb_table"
+ },
+ {
+  "category": "dynamodb_pitr",
+  "family": "resilience",
+  "idiom": "conditional",
+  "truth": "secure",
+  "resource": "aws_dynamodb_table"
+ },
+ {
+  "category": "dynamodb_pitr",
+  "family": "resilience",
+  "idiom": "conditional",
+  "truth": "insecure",
+  "resource": "aws_dynamodb_table"
+ },
+ {
+  "category": "dynamodb_pitr",
+  "family": "resilience",
+  "idiom": "module",
+  "truth": "secure",
+  "resource": "aws_dynamodb_table"
+ },
+ {
+  "category": "dynamodb_pitr",
+  "family": "resilience",
+  "idiom": "module",
+  "truth": "insecure",
+  "resource": "aws_dynamodb_table"
+ },
+ {
+  "category": "dynamodb_pitr",
+  "family": "resilience",
+  "idiom": "omitted",
+  "truth": "insecure",
+  "resource": "aws_dynamodb_table"
+ },
+ {
+  "category": "cloudtrail_log_validation",
+  "family": "logging",
+  "idiom": "literal",
+  "truth": "secure",
+  "resource": "aws_cloudtrail"
+ },
+ {
+  "category": "cloudtrail_log_validation",
+  "family": "logging",
+  "idiom": "literal",
+  "truth": "insecure",
+  "resource": "aws_cloudtrail"
+ },
+ {
+  "category": "cloudtrail_log_validation",
+  "family": "logging",
+  "idiom": "variable_default",
+  "truth": "secure",
+  "resource": "aws_cloudtrail"
+ },
+ {
+  "category": "cloudtrail_log_validation",
+  "family": "logging",
+  "idiom": "variable_default",
+  "truth": "insecure",
+  "resource": "aws_cloudtrail"
+ },
+ {
+  "category": "cloudtrail_log_validation",
+  "family": "logging",
+  "idiom": "tfvars",
+  "truth": "secure",
+  "resource": "aws_cloudtrail"
+ },
+ {
+  "category": "cloudtrail_log_validation",
+  "family": "logging",
+  "idiom": "tfvars",
+  "truth": "insecure",
+  "resource": "aws_cloudtrail"
+ },
+ {
+  "category": "cloudtrail_log_validation",
+  "family": "logging",
+  "idiom": "local",
+  "truth": "secure",
+  "resource": "aws_cloudtrail"
+ },
+ {
+  "category": "cloudtrail_log_validation",
+  "family": "logging",
+  "idiom": "local",
+  "truth": "insecure",
+  "resource": "aws_cloudtrail"
+ },
+ {
+  "category": "cloudtrail_log_validation",
+  "family": "logging",
+  "idiom": "conditional",
+  "truth": "secure",
+  "resource": "aws_cloudtrail"
+ },
+ {
+  "category": "cloudtrail_log_validation",
+  "family": "logging",
+  "idiom": "conditional",
+  "truth": "insecure",
+  "resource": "aws_cloudtrail"
+ },
+ {
+  "category": "cloudtrail_log_validation",
+  "family": "logging",
+  "idiom": "module",
+  "truth": "secure",
+  "resource": "aws_cloudtrail"
+ },
+ {
+  "category": "cloudtrail_log_validation",
+  "family": "logging",
+  "idiom": "module",
+  "truth": "insecure",
+  "resource": "aws_cloudtrail"
+ },
+ {
+  "category": "cloudtrail_log_validation",
+  "family": "logging",
+  "idiom": "omitted",
+  "truth": "insecure",
+  "resource": "aws_cloudtrail"
+ },
+ {
+  "category": "ec2_imdsv2",
+  "family": "instance hardening",
+  "idiom": "literal",
+  "truth": "secure",
+  "resource": "aws_instance"
+ },
+ {
+  "category": "ec2_imdsv2",
+  "family": "instance hardening",
+  "idiom": "literal",
+  "truth": "insecure",
+  "resource": "aws_instance"
+ },
+ {
+  "category": "ec2_imdsv2",
+  "family": "instance hardening",
+  "idiom": "variable_default",
+  "truth": "secure",
+  "resource": "aws_instance"
+ },
+ {
+  "category": "ec2_imdsv2",
+  "family": "instance hardening",
+  "idiom": "variable_default",
+  "truth": "insecure",
+  "resource": "aws_instance"
+ },
+ {
+  "category": "ec2_imdsv2",
+  "family": "instance hardening",
+  "idiom": "tfvars",
+  "truth": "secure",
+  "resource": "aws_instance"
+ },
+ {
+  "category": "ec2_imdsv2",
+  "family": "instance hardening",
+  "idiom": "tfvars",
+  "truth": "insecure",
+  "resource": "aws_instance"
+ },
+ {
+  "category": "ec2_imdsv2",
+  "family": "instance hardening",
+  "idiom": "local",
+  "truth": "secure",
+  "resource": "aws_instance"
+ },
+ {
+  "category": "ec2_imdsv2",
+  "family": "instance hardening",
+  "idiom": "local",
+  "truth": "insecure",
+  "resource": "aws_instance"
+ },
+ {
+  "category": "ec2_imdsv2",
+  "family": "instance hardening",
+  "idiom": "conditional",
+  "truth": "secure",
+  "resource": "aws_instance"
+ },
+ {
+  "category": "ec2_imdsv2",
+  "family": "instance hardening",
+  "idiom": "conditional",
+  "truth": "insecure",
+  "resource": "aws_instance"
+ },
+ {
+  "category": "ec2_imdsv2",
+  "family": "instance hardening",
+  "idiom": "module",
+  "truth": "secure",
+  "resource": "aws_instance"
+ },
+ {
+  "category": "ec2_imdsv2",
+  "family": "instance hardening",
+  "idiom": "module",
+  "truth": "insecure",
+  "resource": "aws_instance"
+ },
+ {
+  "category": "ec2_imdsv2",
+  "family": "instance hardening",
+  "idiom": "omitted",
+  "truth": "insecure",
+  "resource": "aws_instance"
+ },
+ {
+  "category": "ec2_root_encrypted",
+  "family": "encryption at rest",
+  "idiom": "literal",
+  "truth": "secure",
+  "resource": "aws_instance"
+ },
+ {
+  "category": "ec2_root_encrypted",
+  "family": "encryption at rest",
+  "idiom": "literal",
+  "truth": "insecure",
+  "resource": "aws_instance"
+ },
+ {
+  "category": "ec2_root_encrypted",
+  "family": "encryption at rest",
+  "idiom": "variable_default",
+  "truth": "secure",
+  "resource": "aws_instance"
+ },
+ {
+  "category": "ec2_root_encrypted",
+  "family": "encryption at rest",
+  "idiom": "variable_default",
+  "truth": "insecure",
+  "resource": "aws_instance"
+ },
+ {
+  "category": "ec2_root_encrypted",
+  "family": "encryption at rest",
+  "idiom": "tfvars",
+  "truth": "secure",
+  "resource": "aws_instance"
+ },
+ {
+  "category": "ec2_root_encrypted",
+  "family": "encryption at rest",
+  "idiom": "tfvars",
+  "truth": "insecure",
+  "resource": "aws_instance"
+ },
+ {
+  "category": "ec2_root_encrypted",
+  "family": "encryption at rest",
+  "idiom": "local",
+  "truth": "secure",
+  "resource": "aws_instance"
+ },
+ {
+  "category": "ec2_root_encrypted",
+  "family": "encryption at rest",
+  "idiom": "local",
+  "truth": "insecure",
+  "resource": "aws_instance"
+ },
+ {
+  "category": "ec2_root_encrypted",
+  "family": "encryption at rest",
+  "idiom": "conditional",
+  "truth": "secure",
+  "resource": "aws_instance"
+ },
+ {
+  "category": "ec2_root_encrypted",
+  "family": "encryption at rest",
+  "idiom": "conditional",
+  "truth": "insecure",
+  "resource": "aws_instance"
+ },
+ {
+  "category": "ec2_root_encrypted",
+  "family": "encryption at rest",
+  "idiom": "module",
+  "truth": "secure",
+  "resource": "aws_instance"
+ },
+ {
+  "category": "ec2_root_encrypted",
+  "family": "encryption at rest",
+  "idiom": "module",
+  "truth": "insecure",
+  "resource": "aws_instance"
+ },
+ {
+  "category": "ec2_root_encrypted",
+  "family": "encryption at rest",
+  "idiom": "omitted",
+  "truth": "insecure",
+  "resource": "aws_instance"
+ },
+ {
+  "category": "lambda_tracing",
+  "family": "logging",
+  "idiom": "literal",
+  "truth": "secure",
+  "resource": "aws_lambda_function"
+ },
+ {
+  "category": "lambda_tracing",
+  "family": "logging",
+  "idiom": "literal",
+  "truth": "insecure",
+  "resource": "aws_lambda_function"
+ },
+ {
+  "category": "lambda_tracing",
+  "family": "logging",
+  "idiom": "variable_default",
+  "truth": "secure",
+  "resource": "aws_lambda_function"
+ },
+ {
+  "category": "lambda_tracing",
+  "family": "logging",
+  "idiom": "variable_default",
+  "truth": "insecure",
+  "resource": "aws_lambda_function"
+ },
+ {
+  "category": "lambda_tracing",
+  "family": "logging",
+  "idiom": "tfvars",
+  "truth": "secure",
+  "resource": "aws_lambda_function"
+ },
+ {
+  "category": "lambda_tracing",
+  "family": "logging",
+  "idiom": "tfvars",
+  "truth": "insecure",
+  "resource": "aws_lambda_function"
+ },
+ {
+  "category": "lambda_tracing",
+  "family": "logging",
+  "idiom": "local",
+  "truth": "secure",
+  "resource": "aws_lambda_function"
+ },
+ {
+  "category": "lambda_tracing",
+  "family": "logging",
+  "idiom": "local",
+  "truth": "insecure",
+  "resource": "aws_lambda_function"
+ },
+ {
+  "category": "lambda_tracing",
+  "family": "logging",
+  "idiom": "conditional",
+  "truth": "secure",
+  "resource": "aws_lambda_function"
+ },
+ {
+  "category": "lambda_tracing",
+  "family": "logging",
+  "idiom": "conditional",
+  "truth": "insecure",
+  "resource": "aws_lambda_function"
+ },
+ {
+  "category": "lambda_tracing",
+  "family": "logging",
+  "idiom": "module",
+  "truth": "secure",
+  "resource": "aws_lambda_function"
+ },
+ {
+  "category": "lambda_tracing",
+  "family": "logging",
+  "idiom": "module",
+  "truth": "insecure",
+  "resource": "aws_lambda_function"
+ },
+ {
+  "category": "lambda_tracing",
+  "family": "logging",
+  "idiom": "omitted",
+  "truth": "insecure",
+  "resource": "aws_lambda_function"
+ },
+ {
+  "category": "elasticache_transit",
+  "family": "encryption in transit",
+  "idiom": "literal",
+  "truth": "secure",
+  "resource": "aws_elasticache_replication_group"
+ },
+ {
+  "category": "elasticache_transit",
+  "family": "encryption in transit",
+  "idiom": "literal",
+  "truth": "insecure",
+  "resource": "aws_elasticache_replication_group"
+ },
+ {
+  "category": "elasticache_transit",
+  "family": "encryption in transit",
+  "idiom": "variable_default",
+  "truth": "secure",
+  "resource": "aws_elasticache_replication_group"
+ },
+ {
+  "category": "elasticache_transit",
+  "family": "encryption in transit",
+  "idiom": "variable_default",
+  "truth": "insecure",
+  "resource": "aws_elasticache_replication_group"
+ },
+ {
+  "category": "elasticache_transit",
+  "family": "encryption in transit",
+  "idiom": "tfvars",
+  "truth": "secure",
+  "resource": "aws_elasticache_replication_group"
+ },
+ {
+  "category": "elasticache_transit",
+  "family": "encryption in transit",
+  "idiom": "tfvars",
+  "truth": "insecure",
+  "resource": "aws_elasticache_replication_group"
+ },
+ {
+  "category": "elasticache_transit",
+  "family": "encryption in transit",
+  "idiom": "local",
+  "truth": "secure",
+  "resource": "aws_elasticache_replication_group"
+ },
+ {
+  "category": "elasticache_transit",
+  "family": "encryption in transit",
+  "idiom": "local",
+  "truth": "insecure",
+  "resource": "aws_elasticache_replication_group"
+ },
+ {
+  "category": "elasticache_transit",
+  "family": "encryption in transit",
+  "idiom": "conditional",
+  "truth": "secure",
+  "resource": "aws_elasticache_replication_group"
+ },
+ {
+  "category": "elasticache_transit",
+  "family": "encryption in transit",
+  "idiom": "conditional",
+  "truth": "insecure",
+  "resource": "aws_elasticache_replication_group"
+ },
+ {
+  "category": "elasticache_transit",
+  "family": "encryption in transit",
+  "idiom": "module",
+  "truth": "secure",
+  "resource": "aws_elasticache_replication_group"
+ },
+ {
+  "category": "elasticache_transit",
+  "family": "encryption in transit",
+  "idiom": "module",
+  "truth": "insecure",
+  "resource": "aws_elasticache_replication_group"
+ },
+ {
+  "category": "elasticache_transit",
+  "family": "encryption in transit",
+  "idiom": "omitted",
+  "truth": "insecure",
+  "resource": "aws_elasticache_replication_group"
+ },
+ {
+  "category": "redshift_public",
+  "family": "network exposure",
+  "idiom": "literal",
+  "truth": "secure",
+  "resource": "aws_redshift_cluster"
+ },
+ {
+  "category": "redshift_public",
+  "family": "network exposure",
+  "idiom": "literal",
+  "truth": "insecure",
+  "resource": "aws_redshift_cluster"
+ },
+ {
+  "category": "redshift_public",
+  "family": "network exposure",
+  "idiom": "variable_default",
+  "truth": "secure",
+  "resource": "aws_redshift_cluster"
+ },
+ {
+  "category": "redshift_public",
+  "family": "network exposure",
+  "idiom": "variable_default",
+  "truth": "insecure",
+  "resource": "aws_redshift_cluster"
+ },
+ {
+  "category": "redshift_public",
+  "family": "network exposure",
+  "idiom": "tfvars",
+  "truth": "secure",
+  "resource": "aws_redshift_cluster"
+ },
+ {
+  "category": "redshift_public",
+  "family": "network exposure",
+  "idiom": "tfvars",
+  "truth": "insecure",
+  "resource": "aws_redshift_cluster"
+ },
+ {
+  "category": "redshift_public",
+  "family": "network exposure",
+  "idiom": "local",
+  "truth": "secure",
+  "resource": "aws_redshift_cluster"
+ },
+ {
+  "category": "redshift_public",
+  "family": "network exposure",
+  "idiom": "local",
+  "truth": "insecure",
+  "resource": "aws_redshift_cluster"
+ },
+ {
+  "category": "redshift_public",
+  "family": "network exposure",
+  "idiom": "conditional",
+  "truth": "secure",
+  "resource": "aws_redshift_cluster"
+ },
+ {
+  "category": "redshift_public",
+  "family": "network exposure",
+  "idiom": "conditional",
+  "truth": "insecure",
+  "resource": "aws_redshift_cluster"
+ },
+ {
+  "category": "redshift_public",
+  "family": "network exposure",
+  "idiom": "module",
+  "truth": "secure",
+  "resource": "aws_redshift_cluster"
+ },
+ {
+  "category": "redshift_public",
+  "family": "network exposure",
+  "idiom": "module",
+  "truth": "insecure",
+  "resource": "aws_redshift_cluster"
+ },
+ {
+  "category": "redshift_public",
+  "family": "network exposure",
+  "idiom": "omitted",
+  "truth": "secure",
+  "resource": "aws_redshift_cluster"
+ },
+ {
+  "category": "ecr_scan_on_push",
+  "family": "supply chain",
+  "idiom": "literal",
+  "truth": "secure",
+  "resource": "aws_ecr_repository"
+ },
+ {
+  "category": "ecr_scan_on_push",
+  "family": "supply chain",
+  "idiom": "literal",
+  "truth": "insecure",
+  "resource": "aws_ecr_repository"
+ },
+ {
+  "category": "ecr_scan_on_push",
+  "family": "supply chain",
+  "idiom": "variable_default",
+  "truth": "secure",
+  "resource": "aws_ecr_repository"
+ },
+ {
+  "category": "ecr_scan_on_push",
+  "family": "supply chain",
+  "idiom": "variable_default",
+  "truth": "insecure",
+  "resource": "aws_ecr_repository"
+ },
+ {
+  "category": "ecr_scan_on_push",
+  "family": "supply chain",
+  "idiom": "tfvars",
+  "truth": "secure",
+  "resource": "aws_ecr_repository"
+ },
+ {
+  "category": "ecr_scan_on_push",
+  "family": "supply chain",
+  "idiom": "tfvars",
+  "truth": "insecure",
+  "resource": "aws_ecr_repository"
+ },
+ {
+  "category": "ecr_scan_on_push",
+  "family": "supply chain",
+  "idiom": "local",
+  "truth": "secure",
+  "resource": "aws_ecr_repository"
+ },
+ {
+  "category": "ecr_scan_on_push",
+  "family": "supply chain",
+  "idiom": "local",
+  "truth": "insecure",
+  "resource": "aws_ecr_repository"
+ },
+ {
+  "category": "ecr_scan_on_push",
+  "family": "supply chain",
+  "idiom": "conditional",
+  "truth": "secure",
+  "resource": "aws_ecr_repository"
+ },
+ {
+  "category": "ecr_scan_on_push",
+  "family": "supply chain",
+  "idiom": "conditional",
+  "truth": "insecure",
+  "resource": "aws_ecr_repository"
+ },
+ {
+  "category": "ecr_scan_on_push",
+  "family": "supply chain",
+  "idiom": "module",
+  "truth": "secure",
+  "resource": "aws_ecr_repository"
+ },
+ {
+  "category": "ecr_scan_on_push",
+  "family": "supply chain",
+  "idiom": "module",
+  "truth": "insecure",
+  "resource": "aws_ecr_repository"
+ },
+ {
+  "category": "ecr_scan_on_push",
+  "family": "supply chain",
+  "idiom": "omitted",
+  "truth": "insecure",
+  "resource": "aws_ecr_repository"
+ },
+ {
+  "category": "ecr_immutable_tags",
+  "family": "supply chain",
+  "idiom": "literal",
+  "truth": "secure",
+  "resource": "aws_ecr_repository"
+ },
+ {
+  "category": "ecr_immutable_tags",
+  "family": "supply chain",
+  "idiom": "literal",
+  "truth": "insecure",
+  "resource": "aws_ecr_repository"
+ },
+ {
+  "category": "ecr_immutable_tags",
+  "family": "supply chain",
+  "idiom": "variable_default",
+  "truth": "secure",
+  "resource": "aws_ecr_repository"
+ },
+ {
+  "category": "ecr_immutable_tags",
+  "family": "supply chain",
+  "idiom": "variable_default",
+  "truth": "insecure",
+  "resource": "aws_ecr_repository"
+ },
+ {
+  "category": "ecr_immutable_tags",
+  "family": "supply chain",
+  "idiom": "tfvars",
+  "truth": "secure",
+  "resource": "aws_ecr_repository"
+ },
+ {
+  "category": "ecr_immutable_tags",
+  "family": "supply chain",
+  "idiom": "tfvars",
+  "truth": "insecure",
+  "resource": "aws_ecr_repository"
+ },
+ {
+  "category": "ecr_immutable_tags",
+  "family": "supply chain",
+  "idiom": "local",
+  "truth": "secure",
+  "resource": "aws_ecr_repository"
+ },
+ {
+  "category": "ecr_immutable_tags",
+  "family": "supply chain",
+  "idiom": "local",
+  "truth": "insecure",
+  "resource": "aws_ecr_repository"
+ },
+ {
+  "category": "ecr_immutable_tags",
+  "family": "supply chain",
+  "idiom": "conditional",
+  "truth": "secure",
+  "resource": "aws_ecr_repository"
+ },
+ {
+  "category": "ecr_immutable_tags",
+  "family": "supply chain",
+  "idiom": "conditional",
+  "truth": "insecure",
+  "resource": "aws_ecr_repository"
+ },
+ {
+  "category": "ecr_immutable_tags",
+  "family": "supply chain",
+  "idiom": "module",
+  "truth": "secure",
+  "resource": "aws_ecr_repository"
+ },
+ {
+  "category": "ecr_immutable_tags",
+  "family": "supply chain",
+  "idiom": "module",
+  "truth": "insecure",
+  "resource": "aws_ecr_repository"
+ },
+ {
+  "category": "ecr_immutable_tags",
+  "family": "supply chain",
+  "idiom": "omitted",
+  "truth": "insecure",
+  "resource": "aws_ecr_repository"
+ },
+ {
+  "category": "s3_public_acl",
+  "family": "network exposure",
+  "idiom": "literal",
+  "truth": "secure",
+  "resource": "aws_s3_bucket_acl"
+ },
+ {
+  "category": "s3_public_acl",
+  "family": "network exposure",
+  "idiom": "literal",
+  "truth": "insecure",
+  "resource": "aws_s3_bucket_acl"
+ },
+ {
+  "category": "s3_public_acl",
+  "family": "network exposure",
+  "idiom": "variable_default",
+  "truth": "secure",
+  "resource": "aws_s3_bucket_acl"
+ },
+ {
+  "category": "s3_public_acl",
+  "family": "network exposure",
+  "idiom": "variable_default",
+  "truth": "insecure",
+  "resource": "aws_s3_bucket_acl"
+ },
+ {
+  "category": "s3_public_acl",
+  "family": "network exposure",
+  "idiom": "tfvars",
+  "truth": "secure",
+  "resource": "aws_s3_bucket_acl"
+ },
+ {
+  "category": "s3_public_acl",
+  "family": "network exposure",
+  "idiom": "tfvars",
+  "truth": "insecure",
+  "resource": "aws_s3_bucket_acl"
+ },
+ {
+  "category": "s3_public_acl",
+  "family": "network exposure",
+  "idiom": "local",
+  "truth": "secure",
+  "resource": "aws_s3_bucket_acl"
+ },
+ {
+  "category": "s3_public_acl",
+  "family": "network exposure",
+  "idiom": "local",
+  "truth": "insecure",
+  "resource": "aws_s3_bucket_acl"
+ },
+ {
+  "category": "s3_public_acl",
+  "family": "network exposure",
+  "idiom": "conditional",
+  "truth": "secure",
+  "resource": "aws_s3_bucket_acl"
+ },
+ {
+  "category": "s3_public_acl",
+  "family": "network exposure",
+  "idiom": "conditional",
+  "truth": "insecure",
+  "resource": "aws_s3_bucket_acl"
+ },
+ {
+  "category": "s3_public_acl",
+  "family": "network exposure",
+  "idiom": "module",
+  "truth": "secure",
+  "resource": "aws_s3_bucket_acl"
+ },
+ {
+  "category": "s3_public_acl",
+  "family": "network exposure",
+  "idiom": "module",
+  "truth": "insecure",
+  "resource": "aws_s3_bucket_acl"
+ },
+ {
+  "category": "s3_public_acl",
+  "family": "network exposure",
+  "idiom": "omitted",
+  "truth": "secure",
+  "resource": "aws_s3_bucket_acl"
+ },
+ {
+  "category": "s3_block_public_acls",
+  "family": "network exposure",
+  "idiom": "literal",
+  "truth": "secure",
+  "resource": "aws_s3_bucket_public_access_block"
+ },
+ {
+  "category": "s3_block_public_acls",
+  "family": "network exposure",
+  "idiom": "literal",
+  "truth": "insecure",
+  "resource": "aws_s3_bucket_public_access_block"
+ },
+ {
+  "category": "s3_block_public_acls",
+  "family": "network exposure",
+  "idiom": "variable_default",
+  "truth": "secure",
+  "resource": "aws_s3_bucket_public_access_block"
+ },
+ {
+  "category": "s3_block_public_acls",
+  "family": "network exposure",
+  "idiom": "variable_default",
+  "truth": "insecure",
+  "resource": "aws_s3_bucket_public_access_block"
+ },
+ {
+  "category": "s3_block_public_acls",
+  "family": "network exposure",
+  "idiom": "tfvars",
+  "truth": "secure",
+  "resource": "aws_s3_bucket_public_access_block"
+ },
+ {
+  "category": "s3_block_public_acls",
+  "family": "network exposure",
+  "idiom": "tfvars",
+  "truth": "insecure",
+  "resource": "aws_s3_bucket_public_access_block"
+ },
+ {
+  "category": "s3_block_public_acls",
+  "family": "network exposure",
+  "idiom": "local",
+  "truth": "secure",
+  "resource": "aws_s3_bucket_public_access_block"
+ },
+ {
+  "category": "s3_block_public_acls",
+  "family": "network exposure",
+  "idiom": "local",
+  "truth": "insecure",
+  "resource": "aws_s3_bucket_public_access_block"
+ },
+ {
+  "category": "s3_block_public_acls",
+  "family": "network exposure",
+  "idiom": "conditional",
+  "truth": "secure",
+  "resource": "aws_s3_bucket_public_access_block"
+ },
+ {
+  "category": "s3_block_public_acls",
+  "family": "network exposure",
+  "idiom": "conditional",
+  "truth": "insecure",
+  "resource": "aws_s3_bucket_public_access_block"
+ },
+ {
+  "category": "s3_block_public_acls",
+  "family": "network exposure",
+  "idiom": "module",
+  "truth": "secure",
+  "resource": "aws_s3_bucket_public_access_block"
+ },
+ {
+  "category": "s3_block_public_acls",
+  "family": "network exposure",
+  "idiom": "module",
+  "truth": "insecure",
+  "resource": "aws_s3_bucket_public_access_block"
+ },
+ {
+  "category": "s3_block_public_acls",
+  "family": "network exposure",
+  "idiom": "omitted",
+  "truth": "insecure",
+  "resource": "aws_s3_bucket_public_access_block"
+ },
+ {
+  "category": "kinesis_encryption",
+  "family": "encryption at rest",
+  "idiom": "literal",
+  "truth": "secure",
+  "resource": "aws_kinesis_stream"
+ },
+ {
+  "category": "kinesis_encryption",
+  "family": "encryption at rest",
+  "idiom": "literal",
+  "truth": "insecure",
+  "resource": "aws_kinesis_stream"
+ },
+ {
+  "category": "kinesis_encryption",
+  "family": "encryption at rest",
+  "idiom": "variable_default",
+  "truth": "secure",
+  "resource": "aws_kinesis_stream"
+ },
+ {
+  "category": "kinesis_encryption",
+  "family": "encryption at rest",
+  "idiom": "variable_default",
+  "truth": "insecure",
+  "resource": "aws_kinesis_stream"
+ },
+ {
+  "category": "kinesis_encryption",
+  "family": "encryption at rest",
+  "idiom": "tfvars",
+  "truth": "secure",
+  "resource": "aws_kinesis_stream"
+ },
+ {
+  "category": "kinesis_encryption",
+  "family": "encryption at rest",
+  "idiom": "tfvars",
+  "truth": "insecure",
+  "resource": "aws_kinesis_stream"
+ },
+ {
+  "category": "kinesis_encryption",
+  "family": "encryption at rest",
+  "idiom": "local",
+  "truth": "secure",
+  "resource": "aws_kinesis_stream"
+ },
+ {
+  "category": "kinesis_encryption",
+  "family": "encryption at rest",
+  "idiom": "local",
+  "truth": "insecure",
+  "resource": "aws_kinesis_stream"
+ },
+ {
+  "category": "kinesis_encryption",
+  "family": "encryption at rest",
+  "idiom": "conditional",
+  "truth": "secure",
+  "resource": "aws_kinesis_stream"
+ },
+ {
+  "category": "kinesis_encryption",
+  "family": "encryption at rest",
+  "idiom": "conditional",
+  "truth": "insecure",
+  "resource": "aws_kinesis_stream"
+ },
+ {
+  "category": "kinesis_encryption",
+  "family": "encryption at rest",
+  "idiom": "module",
+  "truth": "secure",
+  "resource": "aws_kinesis_stream"
+ },
+ {
+  "category": "kinesis_encryption",
+  "family": "encryption at rest",
+  "idiom": "module",
+  "truth": "insecure",
+  "resource": "aws_kinesis_stream"
+ },
+ {
+  "category": "kinesis_encryption",
+  "family": "encryption at rest",
+  "idiom": "omitted",
+  "truth": "insecure",
+  "resource": "aws_kinesis_stream"
+ },
+ {
+  "category": "opensearch_node_to_node",
+  "family": "encryption in transit",
+  "idiom": "literal",
+  "truth": "secure",
+  "resource": "aws_opensearch_domain"
+ },
+ {
+  "category": "opensearch_node_to_node",
+  "family": "encryption in transit",
+  "idiom": "literal",
+  "truth": "insecure",
+  "resource": "aws_opensearch_domain"
+ },
+ {
+  "category": "opensearch_node_to_node",
+  "family": "encryption in transit",
+  "idiom": "variable_default",
+  "truth": "secure",
+  "resource": "aws_opensearch_domain"
+ },
+ {
+  "category": "opensearch_node_to_node",
+  "family": "encryption in transit",
+  "idiom": "variable_default",
+  "truth": "insecure",
+  "resource": "aws_opensearch_domain"
+ },
+ {
+  "category": "opensearch_node_to_node",
+  "family": "encryption in transit",
+  "idiom": "tfvars",
+  "truth": "secure",
+  "resource": "aws_opensearch_domain"
+ },
+ {
+  "category": "opensearch_node_to_node",
+  "family": "encryption in transit",
+  "idiom": "tfvars",
+  "truth": "insecure",
+  "resource": "aws_opensearch_domain"
+ },
+ {
+  "category": "opensearch_node_to_node",
+  "family": "encryption in transit",
+  "idiom": "local",
+  "truth": "secure",
+  "resource": "aws_opensearch_domain"
+ },
+ {
+  "category": "opensearch_node_to_node",
+  "family": "encryption in transit",
+  "idiom": "local",
+  "truth": "insecure",
+  "resource": "aws_opensearch_domain"
+ },
+ {
+  "category": "opensearch_node_to_node",
+  "family": "encryption in transit",
+  "idiom": "conditional",
+  "truth": "secure",
+  "resource": "aws_opensearch_domain"
+ },
+ {
+  "category": "opensearch_node_to_node",
+  "family": "encryption in transit",
+  "idiom": "conditional",
+  "truth": "insecure",
+  "resource": "aws_opensearch_domain"
+ },
+ {
+  "category": "opensearch_node_to_node",
+  "family": "encryption in transit",
+  "idiom": "module",
+  "truth": "secure",
+  "resource": "aws_opensearch_domain"
+ },
+ {
+  "category": "opensearch_node_to_node",
+  "family": "encryption in transit",
+  "idiom": "module",
+  "truth": "insecure",
+  "resource": "aws_opensearch_domain"
+ },
+ {
+  "category": "opensearch_node_to_node",
+  "family": "encryption in transit",
+  "idiom": "omitted",
+  "truth": "insecure",
+  "resource": "aws_opensearch_domain"
+ },
+ {
+  "category": "eks_public_endpoint",
+  "family": "network exposure",
+  "idiom": "literal",
+  "truth": "secure",
+  "resource": "aws_eks_cluster"
+ },
+ {
+  "category": "eks_public_endpoint",
+  "family": "network exposure",
+  "idiom": "literal",
+  "truth": "insecure",
+  "resource": "aws_eks_cluster"
+ },
+ {
+  "category": "eks_public_endpoint",
+  "family": "network exposure",
+  "idiom": "variable_default",
+  "truth": "secure",
+  "resource": "aws_eks_cluster"
+ },
+ {
+  "category": "eks_public_endpoint",
+  "family": "network exposure",
+  "idiom": "variable_default",
+  "truth": "insecure",
+  "resource": "aws_eks_cluster"
+ },
+ {
+  "category": "eks_public_endpoint",
+  "family": "network exposure",
+  "idiom": "tfvars",
+  "truth": "secure",
+  "resource": "aws_eks_cluster"
+ },
+ {
+  "category": "eks_public_endpoint",
+  "family": "network exposure",
+  "idiom": "tfvars",
+  "truth": "insecure",
+  "resource": "aws_eks_cluster"
+ },
+ {
+  "category": "eks_public_endpoint",
+  "family": "network exposure",
+  "idiom": "local",
+  "truth": "secure",
+  "resource": "aws_eks_cluster"
+ },
+ {
+  "category": "eks_public_endpoint",
+  "family": "network exposure",
+  "idiom": "local",
+  "truth": "insecure",
+  "resource": "aws_eks_cluster"
+ },
+ {
+  "category": "eks_public_endpoint",
+  "family": "network exposure",
+  "idiom": "conditional",
+  "truth": "secure",
+  "resource": "aws_eks_cluster"
+ },
+ {
+  "category": "eks_public_endpoint",
+  "family": "network exposure",
+  "idiom": "conditional",
+  "truth": "insecure",
+  "resource": "aws_eks_cluster"
+ },
+ {
+  "category": "eks_public_endpoint",
+  "family": "network exposure",
+  "idiom": "module",
+  "truth": "secure",
+  "resource": "aws_eks_cluster"
+ },
+ {
+  "category": "eks_public_endpoint",
+  "family": "network exposure",
+  "idiom": "module",
+  "truth": "insecure",
+  "resource": "aws_eks_cluster"
+ },
+ {
+  "category": "eks_public_endpoint",
+  "family": "network exposure",
+  "idiom": "omitted",
+  "truth": "insecure",
+  "resource": "aws_eks_cluster"
+ }
+]
