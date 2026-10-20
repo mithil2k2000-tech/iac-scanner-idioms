@@ -1,8 +1,10 @@
 # Same setting, different verdict
 
+📄 **Paper (PDF): [iac-scanner-idioms.pdf](iac-scanner-idioms.pdf)**
+
 Does the way a Terraform value is written change what IaC security scanners report? A mutation corpus of 24 AWS
 security settings, each secure and insecure in seven idioms (literal, variable default, tfvars, local, conditional,
-local module, omitted): 312 cases with ground truth by construction. Paper: [`paper/main.pdf`](paper/main.pdf).
+local module, omitted): 312 cases with ground truth by construction.
 
 | Written as | Checkov recall / FPR | Semgrep recall / FPR |
 |---|---|---|
