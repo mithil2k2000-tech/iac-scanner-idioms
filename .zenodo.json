@@ -1,0 +1,21 @@
+{
+  "title": "Same Setting, Different Verdict: How the Way a Terraform Value Is Written Changes What Security Scanners Report",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "Preprint, code, data and results for: Same Setting, Different Verdict: How the Way a Terraform Value Is Written Changes What Security Scanners Report. Not peer reviewed. The PDF is iac-scanner-idioms.pdf in this repository.",
+  "creators": [
+    {
+      "name": "Nagabathula, Mithil",
+      "affiliation": "University of East London"
+    }
+  ],
+  "keywords": [
+    "infrastructure as code",
+    "Terraform",
+    "static analysis",
+    "cloud security"
+  ],
+  "license": "MIT",
+  "language": "eng",
+  "access_right": "open"
+}
