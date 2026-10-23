@@ -1,6 +1,6 @@
 # Same setting, different verdict
 
-📄 **Paper (PDF): [iac-scanner-idioms.pdf](iac-scanner-idioms.pdf)**
+📄 **Paper (PDF): [iac-scanner-idioms.pdf](iac-scanner-idioms.pdf)** · [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23592992.svg)](https://doi.org/10.5281/zenodo.23592992)
 
 Does the way a Terraform value is written change what IaC security scanners report? A mutation corpus of 24 AWS
 security settings, each secure and insecure in seven idioms (literal, variable default, tfvars, local, conditional,
